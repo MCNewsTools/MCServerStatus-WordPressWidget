@@ -1,0 +1,7 @@
+<?php
+
+if ($server === null) {
+    require dirname(__FILE__) . '/partials/offline.phtml';
+} else {
+    require dirname(__FILE__) . '/partials/online.phtml';
+}

@@ -1,0 +1,118 @@
+<?php $randomPlayerList = rand(0, 10000); ?>
+<?php $randomPlugins = rand(0, 10000); ?>
+<?php echo $args['before_widget']; ?>
+<?php echo $args['before_title'] . $instance['title'] . $args['after_title']; ?>
+<p>
+	<?php if (isset($instance['show_server_motd']) && $instance['show_server_motd'] == 'on'): ?>
+        <?php _e("Server MOTD", 'mcserverstatus'); ?>: <strong><span style="color:green;font-weight:bold"><refresh class="motd"><?php echo $server['server']['server_motd']; ?></refresh></span></strong><br>
+    <?php endif; ?>
+
+	<?php if (isset($instance['show_status']) && $instance['show_status'] == 'on'): ?>
+		<?php _e("Status", 'mcserverstatus'); ?>: <strong><span style="color:green;font-weight:bold"><?php _e("Online", 'mcserverstatus'); ?></span></strong><br>
+	<?php endif; ?>
+	
+    <?php if (isset($instance['show_host']) && $instance['show_host'] == 'on'): ?>
+        <?php _e("Host", 'mcserverstatus'); ?>: <strong><?php echo $server['server']['host']; ?><?php if (isset($instance['show_port']) && $instance['show_port'] == 'on'): ?><?php echo ':', $server['server']['port']; ?><?php endif; ?></strong><br>
+    <?php endif; ?>
+	
+	<?php if (isset($instance['show_server_platform']) && $instance['show_server_platform']): ?>
+        <?php _e("Server platform", 'mcserverstatus'); ?>: <strong><?php echo $server['server']['server_platform']; ?></strong><br>
+    <?php endif; ?>
+
+    <?php if (isset($instance['show_server_software']) && $instance['show_server_software']): ?>
+        <?php _e("Server software", 'mcserverstatus'); ?>: <strong><?php echo $server['server']['version']['software']; ?></strong><br>
+    <?php endif; ?>
+	
+	<?php if (isset($instance['show_game_version']) && $instance['show_game_version']): ?>
+        <?php _e("Game version", 'mcserverstatus'); ?>: <strong><?php echo $server['server']['version']['version']; ?></strong><br>
+    <?php endif; ?>
+
+    <?php if (isset($instance['website']) && $instance['website']): ?>
+        <a href="<?php echo $instance['website']; ?>" target="_blank"><?php _e("Website", 'mcserverstatus'); ?></a><br>
+    <?php endif; ?>
+
+    <?php if (isset($instance['dynmap']) && $instance['dynmap']): ?>
+        <a href="<?php echo $instance['dynmap']; ?>" target="_blank"><?php _e("DynMap", 'mcserverstatus'); ?></a><br>
+    <?php endif; ?>
+
+    <?php if (isset($instance['show_plugins']) && $instance['show_plugins']): ?>
+        <?php if (count($server['plugins']) > 0) : ?>
+        <?php _e("Plugins", 'mcserverstatus'); ?>:
+            <strong><?php echo count($server['plugins']); ?></strong> (<a href="javascript:toggleMcsList(<?php echo $randomPlugins; ?>);"><?php echo __("Plugins list", 'mcserverstatus'); ?></a>)<br>
+        <?php else : ?>
+            <?php _e("Plugins: <strong>Not found</strong>", 'mcserverstatus'); ?><br>
+        <?php endif; ?>
+    <?php endif; ?>
+
+    <?php if ($server['plugins'] > 0 && isset($instance['show_plugins']) && $instance['show_plugins']) : ?>
+    <span id="mcs_list_<?php echo $randomPlugins; ?>" style="display:none">
+        <?php foreach ($server['plugins'] as $plugin) : ?>
+			<span>　- <?php echo $plugin['name']; ?></span><br>
+        <?php endforeach; ?>
+    </span>
+    <?php endif; ?>
+
+    <?php if ($server['players'] > 0 && isset($instance['show_players']) && $instance['show_players'] == 'on') : ?>
+        <?php _e("Players", 'mcserverstatus'); ?>:
+    <strong><refresh class="players"><?php echo $server['server']['players_online']; ?>/<?php echo $server['server']['players_max']; ?></refresh></strong> (<a href="javascript:toggleMcsList(<?php echo $randomPlayerList; ?>);"><?php echo __("Players list", 'mcserverstatus'); ?></a>)<br>
+    <?php else : ?>
+    <?php if (isset($instance['show_players']) && $instance['show_players']) : ?>
+        <?php _e("Players", 'mcserverstatus'); ?>: <strong><refresh class="players2"><?php echo $server['server']['players_online']; ?>/<?php echo $server['server']['players_max']; ?></refresh></strong>
+        <?php endif; ?>
+    <?php endif; ?>
+
+    <?php if ($server['players'] > 0 && isset($instance['show_players']) && $instance['show_players']) : ?>
+    <span id="mcs_list_<?php echo $randomPlayerList; ?>" style="margin-top:5px;<?php echo (isset($instance['show_auto_players']) && $instance['show_auto_players'] == 'on') ? 'display:block' : 'display:none'; ?> ">
+        <refresh class="playerslist">
+		<?php foreach ($server['players'] as $player) : ?>
+			<?php if (isset($instance['show_players_avatar']) && $instance['show_players_avatar']) { ?>
+				<?php if ($server['server']['server_platform'] == 'MINECRAFT') { ?>
+					<?php echo '　<img src="http://cravatar.eu/helmavatar/' . $player['name'] . '/' . $instance['avatar-size'] . '.png">'; ?>
+				<?php } else { ?>
+					<?php echo '　<img src="http://cravatar.eu/helmavatar/steve/' . $instance['avatar-size'] . '.png">'; ?>
+				<?php } ?>
+			<?php } else { ?>
+				<?php echo '<span>　- ' . $player['name'] . '</span><br>'; ?>
+			<?php } ?>
+			<?php
+			if (isset($instance['show_players_avatar']) && $instance['show_players_avatar']) {
+				echo '<span> ' . $player['name'] . '</span><br>';
+			} else {
+				echo '<span>　- ' . $player['name'] . '</span><br>';
+			}
+			?>
+        <?php endforeach; ?>
+		</refresh>
+    </span>
+    <?php endif; ?>
+	
+	<?php if (isset($instance['show_donate_info']) && $instance['show_donate_info']): ?>
+		<font color="red"><?php _e("Download this plugin:", 'mcserverstatus'); ?></font> <a href="https://wordpress.org/plugins/minecraft-pc-pe-server-status" target="_blank"><?php _e("Minecraft PC & PE Server Status", 'mcserverstatus'); ?></a><br>
+		<font color="red"><?php _e("Donate this plugin:", 'mcserverstatus'); ?></font> <a href="https://qr.allpay.com.tw/ffSH4" target="_blank"><?php _e("allPay", 'mcserverstatus'); ?></a> | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=42GN624D7ZLUN" target="_blank"><?php _e("PayPal", 'mcserverstatus'); ?></a><br>
+	<?php endif; ?>
+</p>
+
+<?php echo $args['after_widget']; ?>
+
+<script type="text/javascript">
+    function toggleMcsList(random) {
+        if (document.getElementById('mcs_list_' + random).style.display == 'none') {
+            document.getElementById('mcs_list_' + random).style.display = 'block';
+        } else {
+            document.getElementById('mcs_list_' + random).style.display = 'none';
+        }
+    }
+</script>
+
+<?php if (isset($instance['auto_update_status']) && $instance['auto_update_status']): ?>
+<script type="text/javascript">
+    $(function(){
+        setInterval(function () {
+			$(".players").load(location.href + " .players");
+			$(".playerslist").load(location.href + " .playerslist");
+			$(".motd").load(location.href + " .motd");
+			$(".players2").load(location.href + " .players2");
+		}, <?php if ($instance['set_seconds'] < '5') {echo '5000';} else {echo $instance['set_seconds'] . '000';} ?>);
+    })
+</script>
+<?php endif; ?>

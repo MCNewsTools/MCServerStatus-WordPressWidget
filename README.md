@@ -25,3 +25,5 @@ Other functions:
  * DynMap
  * Set player avatar size
  * Auto update status
+
+[Download this plugin](https://wordpress.org/plugins/minecraft-pc-pe-server-status)
