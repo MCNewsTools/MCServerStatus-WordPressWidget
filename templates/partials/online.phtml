@@ -4,43 +4,43 @@
 <?php echo $args['before_title'] . $instance['title'] . $args['after_title']; ?>
 <p>
 	<?php if (isset($instance['show_server_motd']) && $instance['show_server_motd'] == 'on'): ?>
-        <?php _e("Server MOTD", 'mcserverstatus'); ?>: <strong><span style="color:green;font-weight:bold"><refresh class="motd"><?php echo $server['server']['server_motd']; ?></refresh></span></strong><br>
+        <?php _e('Server MOTD', 'mcserverstatus'); ?>: <strong><span style="color:green;font-weight:bold"><refresh class="motd"><?php echo $server['server']['server_motd']; ?></refresh></span></strong><br>
     <?php endif; ?>
 
 	<?php if (isset($instance['show_status']) && $instance['show_status'] == 'on'): ?>
-		<?php _e("Status", 'mcserverstatus'); ?>: <strong><span style="color:green;font-weight:bold"><?php _e("Online", 'mcserverstatus'); ?></span></strong><br>
+		<?php _e('Status', 'mcserverstatus'); ?>: <strong><span style="color:green;font-weight:bold"><?php _e('Online', 'mcserverstatus'); ?></span></strong><br>
 	<?php endif; ?>
 	
     <?php if (isset($instance['show_host']) && $instance['show_host'] == 'on'): ?>
-        <?php _e("Host", 'mcserverstatus'); ?>: <strong><?php echo $server['server']['host']; ?><?php if (isset($instance['show_port']) && $instance['show_port'] == 'on'): ?><?php echo ':', $server['server']['port']; ?><?php endif; ?></strong><br>
+        <?php _e('Host', 'mcserverstatus'); ?>: <strong><?php echo $server['server']['host']; ?><?php if (isset($instance['show_port']) && $instance['show_port'] == 'on'): ?><?php echo ':', $server['server']['port']; ?><?php endif; ?></strong><br>
     <?php endif; ?>
 	
 	<?php if (isset($instance['show_server_platform']) && $instance['show_server_platform']): ?>
-        <?php _e("Server platform", 'mcserverstatus'); ?>: <strong><?php echo $server['server']['server_platform']; ?></strong><br>
+        <?php _e('Server platform', 'mcserverstatus'); ?>: <strong><?php echo $server['server']['server_platform']; ?></strong><br>
     <?php endif; ?>
 
     <?php if (isset($instance['show_server_software']) && $instance['show_server_software']): ?>
-        <?php _e("Server software", 'mcserverstatus'); ?>: <strong><?php echo $server['server']['version']['software']; ?></strong><br>
+        <?php _e('Server software', 'mcserverstatus'); ?>: <strong><?php echo $server['server']['version']['software']; ?></strong><br>
     <?php endif; ?>
 	
 	<?php if (isset($instance['show_game_version']) && $instance['show_game_version']): ?>
-        <?php _e("Game version", 'mcserverstatus'); ?>: <strong><?php echo $server['server']['version']['version']; ?></strong><br>
+        <?php _e('Game version', 'mcserverstatus'); ?>: <strong><?php echo $server['server']['version']['version']; ?></strong><br>
     <?php endif; ?>
 
     <?php if (isset($instance['website']) && $instance['website']): ?>
-        <a href="<?php echo $instance['website']; ?>" target="_blank"><?php _e("Website", 'mcserverstatus'); ?></a><br>
+        <a href="<?php echo $instance['website']; ?>" target="_blank"><?php _e('Website', 'mcserverstatus'); ?></a><br>
     <?php endif; ?>
 
     <?php if (isset($instance['dynmap']) && $instance['dynmap']): ?>
-        <a href="<?php echo $instance['dynmap']; ?>" target="_blank"><?php _e("DynMap", 'mcserverstatus'); ?></a><br>
+        <a href="<?php echo $instance['dynmap']; ?>" target="_blank"><?php _e('DynMap', 'mcserverstatus'); ?></a><br>
     <?php endif; ?>
 
     <?php if (isset($instance['show_plugins']) && $instance['show_plugins']): ?>
         <?php if (count($server['plugins']) > 0) : ?>
-        <?php _e("Plugins", 'mcserverstatus'); ?>:
-            <strong><?php echo count($server['plugins']); ?></strong> (<a href="javascript:toggleMcsList(<?php echo $randomPlugins; ?>);"><?php echo __("Plugins list", 'mcserverstatus'); ?></a>)<br>
+        <?php _e('Plugins', 'mcserverstatus'); ?>:
+            <strong><?php echo count($server['plugins']); ?></strong> (<a href="javascript:toggleMcsList(<?php echo $randomPlugins; ?>);"><?php echo __('Plugins list', 'mcserverstatus'); ?></a>)<br>
         <?php else : ?>
-            <?php _e("Plugins: <strong>Not found</strong>", 'mcserverstatus'); ?><br>
+            <?php _e('Plugins: <strong>Not found</strong>', 'mcserverstatus'); ?><br>
         <?php endif; ?>
     <?php endif; ?>
 
@@ -53,11 +53,11 @@
     <?php endif; ?>
 
     <?php if ($server['players'] > 0 && isset($instance['show_players']) && $instance['show_players'] == 'on') : ?>
-        <?php _e("Players", 'mcserverstatus'); ?>:
-    <strong><refresh class="players"><?php echo $server['server']['players_online']; ?>/<?php echo $server['server']['players_max']; ?></refresh></strong> (<a href="javascript:toggleMcsList(<?php echo $randomPlayerList; ?>);"><?php echo __("Players list", 'mcserverstatus'); ?></a>)<br>
+        <?php _e('Players', 'mcserverstatus'); ?>:
+    <strong><refresh class="players"><?php echo $server['server']['players_online']; ?>/<?php echo $server['server']['players_max']; ?></refresh></strong> (<a href="javascript:toggleMcsList(<?php echo $randomPlayerList; ?>);"><?php echo __('Players list', 'mcserverstatus'); ?></a>)<br>
     <?php else : ?>
     <?php if (isset($instance['show_players']) && $instance['show_players']) : ?>
-        <?php _e("Players", 'mcserverstatus'); ?>: <strong><refresh class="players2"><?php echo $server['server']['players_online']; ?>/<?php echo $server['server']['players_max']; ?></refresh></strong>
+        <?php _e('Players', 'mcserverstatus'); ?>: <strong><refresh class="players2"><?php echo $server['server']['players_online']; ?>/<?php echo $server['server']['players_max']; ?></refresh></strong>
         <?php endif; ?>
     <?php endif; ?>
 
@@ -87,8 +87,8 @@
     <?php endif; ?>
 	
 	<?php if (isset($instance['show_donate_info']) && $instance['show_donate_info']): ?>
-		<font color="red"><?php _e("Download this plugin:", 'mcserverstatus'); ?></font> <a href="https://wordpress.org/plugins/server-status-for-minecraft-pc-pe" target="_blank"><?php _e("Server Status For Minecraft PC & PE", 'mcserverstatus'); ?></a><br>
-		<font color="red"><?php _e("Donate this plugin:", 'mcserverstatus'); ?></font> <a href="https://qr.allpay.com.tw/ffSH4" target="_blank"><?php _e("allPay", 'mcserverstatus'); ?></a> | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=42GN624D7ZLUN" target="_blank"><?php _e("PayPal", 'mcserverstatus'); ?></a><br>
+		<font color="red"><?php _e('Download this plugin:', 'mcserverstatus'); ?></font> <a href="https://wordpress.org/plugins/server-status-for-minecraft-pc-pe" target="_blank"><?php _e('Server Status For Minecraft PC & PE', 'mcserverstatus'); ?></a><br>
+		<font color="red"><?php _e('Donate this plugin:', 'mcserverstatus'); ?></font> <a href="https://qr.allpay.com.tw/ffSH4" target="_blank"><?php _e('allPay', 'mcserverstatus'); ?></a> | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=42GN624D7ZLUN" target="_blank"><?php _e('PayPal', 'mcserverstatus'); ?></a><br>
 	<?php endif; ?>
 </p>
 

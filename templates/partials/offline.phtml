@@ -4,20 +4,20 @@
 <?php echo $args['before_title'] . $instance['title'] . $args['after_title']; ?>
 <p>
 	<?php if (isset($instance['show_status']) && $instance['show_status'] == 'on'): ?>
-		<?php _e("Status", 'mcserverstatus'); ?>: <span style="color:red;font-weight:bold"><?php _e("Offline", 'mcserverstatus'); ?></span><br>
+		<?php _e('Status', 'mcserverstatus'); ?>: <span style="color:red;font-weight:bold"><?php _e('Offline', 'mcserverstatus'); ?></span><br>
 	<?php endif; ?>
 
 	<?php if (isset($instance['show_host']) && $instance['show_host'] == 'on'): ?>
-		<?php _e("Host", 'mcserverstatus'); ?>: <strong><?php echo $instance['host'], ':', $instance['port']; ?></strong><br>
+		<?php _e('Host', 'mcserverstatus'); ?>: <strong><?php echo $instance['host'], ':', $instance['port']; ?></strong><br>
 	<?php endif; ?>
 
 	<?php if (isset($instance['website']) && $instance['website']): ?>
-		<a href="<?php echo $instance['website']; ?>" target="_blank"><?php _e("Website", 'mcserverstatus'); ?></a><br>
+		<a href="<?php echo $instance['website']; ?>" target="_blank"><?php _e('Website', 'mcserverstatus'); ?></a><br>
 	<?php endif; ?>
 	
 	<?php if (isset($instance['show_donate_info']) && $instance['show_donate_info']): ?>
-		<font color="red"><?php _e("Download this plugin:", 'mcserverstatus'); ?></font> <a href="https://wordpress.org/plugins/server-status-for-minecraft-pc-pe" target="_blank"><?php _e("Server Status For Minecraft PC & PE", 'mcserverstatus'); ?></a><br>
-		<font color="red"><?php _e("Donate this plugin:", 'mcserverstatus'); ?></font> <a href="https://qr.allpay.com.tw/ffSH4" target="_blank"><?php _e("allPay", 'mcserverstatus'); ?></a> | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=42GN624D7ZLUN" target="_blank"><?php _e("PayPal", 'mcserverstatus'); ?></a><br>
+		<font color="red"><?php _e('Download this plugin:', 'mcserverstatus'); ?></font> <a href="https://wordpress.org/plugins/server-status-for-minecraft-pc-pe" target="_blank"><?php _e('Server Status For Minecraft PC & PE', 'mcserverstatus'); ?></a><br>
+		<font color="red"><?php _e('Donate this plugin:', 'mcserverstatus'); ?></font> <a href="https://qr.allpay.com.tw/ffSH4" target="_blank"><?php _e('allPay', 'mcserverstatus'); ?></a> | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=42GN624D7ZLUN" target="_blank"><?php _e('PayPal', 'mcserverstatus'); ?></a><br>
 	<?php endif; ?>
 </p>
 
