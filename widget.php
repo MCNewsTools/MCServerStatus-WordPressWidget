@@ -10,6 +10,7 @@ Author URI: https://www.facebook.com/TPGoneTone/
 Author email: p29022716@gmail.com
 License: GPL 2
 Donate URI: https://qr.allpay.com.tw/ffSH4
+Text Domain: mcserverstatus
 Domain Path: /lang
 */
 
