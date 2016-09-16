@@ -1,4 +1,4 @@
-Minecraft PC & PE Server Status is a WordPress Widget, show Minecraft PC & PE server data.
+Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC & PE server data.
 
 You can display / hide these information:
 
@@ -26,4 +26,4 @@ Other functions:
  * Set player avatar size
  * Auto update status
 
-[Download this plugin](https://wordpress.org/plugins/minecraft-pc-pe-server-status)
+[Download this plugin](https://wordpress.org/plugins/server-status-for-minecraft-pc-pe)

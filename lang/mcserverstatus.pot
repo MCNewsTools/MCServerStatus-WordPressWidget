@@ -16,11 +16,11 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 
 #. Plugin Name of the plugin/theme
-msgid "Minecraft PC & PE Server Status (MCServerStatus)"
+msgid "Server Status For Minecraft PC & PE (MCServerStatus)"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Minecraft PC & PE Server Status is a WordPress Widget, show Minecraft PC & PE server data."
+msgid "Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC & PE server data."
 msgstr ""
 
 #: ../mcserverstatus/templates/form.phtml:6
@@ -187,7 +187,7 @@ msgstr ""
 
 #: ../mcserverstatus/templates/partials/offline.phtml:19
 #: ../mcserverstatus/templates/partials/online.phtml:90
-msgid "Minecraft PC & PE Server Status"
+msgid "Server Status For Minecraft PC & PE"
 msgstr ""
 
 #: ../mcserverstatus/templates/partials/offline.phtml:20

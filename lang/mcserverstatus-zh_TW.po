@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mcserverstatus\n"
-"POT-Creation-Date: 2016-09-16 00:24+0800\n"
-"PO-Revision-Date: 2016-09-16 00:27+0800\n"
+"POT-Creation-Date: 2016-09-16 12:18+0800\n"
+"PO-Revision-Date: 2016-09-16 12:18+0800\n"
 "Last-Translator: 科技玩客 TechPlayer\n"
 "Language-Team: 科技玩客 TechPlayer, LLC. <team@techplayer.org>\n"
 "Language: zh_TW\n"
@@ -16,16 +16,16 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 
 #. Plugin Name of the plugin/theme
-msgid "Minecraft PC & PE Server Status (MCServerStatus)"
-msgstr "Minecraft PC & PE 伺服器狀態 (MCServerStatus)"
+msgid "Server Status For Minecraft PC & PE (MCServerStatus)"
+msgstr "伺服器狀態 For Minecraft PC & PE (MCServerStatus)"
 
 #. Description of the plugin/theme
 msgid ""
-"Minecraft PC & PE Server Status is a WordPress Widget, show Minecraft PC & "
-"PE server data."
+"Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC "
+"& PE server data."
 msgstr ""
-"Minecraft PC & PE 伺服器狀態是一個 WordPress 小工具，顯示 Minecraft PC & PE "
-"伺服器資訊。"
+"伺服器狀態 For Minecraft PC & PE 是一個 WordPress 小工具，顯示 Minecraft PC "
+"& PE 伺服器資訊。"
 
 #: ../mcserverstatus/templates/form.phtml:6
 msgid "Precautions"
@@ -194,8 +194,8 @@ msgstr "下載此插件:"
 
 #: ../mcserverstatus/templates/partials/offline.phtml:19
 #: ../mcserverstatus/templates/partials/online.phtml:90
-msgid "Minecraft PC & PE Server Status"
-msgstr "Minecraft PC & PE 伺服器狀態"
+msgid "Server Status For Minecraft PC & PE"
+msgstr "伺服器狀態 For Minecraft PC & PE"
 
 #: ../mcserverstatus/templates/partials/offline.phtml:20
 #: ../mcserverstatus/templates/partials/online.phtml:91
@@ -252,6 +252,19 @@ msgstr "玩家"
 #: ../mcserverstatus/templates/partials/online.phtml:57
 msgid "Players list"
 msgstr "玩家名單"
+
+#~ msgid "Minecraft PC & PE Server Status (MCServerStatus)"
+#~ msgstr "Minecraft PC & PE 伺服器狀態 (MCServerStatus)"
+
+#~ msgid ""
+#~ "Minecraft PC & PE Server Status is a WordPress Widget, show Minecraft PC "
+#~ "& PE server data."
+#~ msgstr ""
+#~ "Minecraft PC & PE 伺服器狀態是一個 WordPress 小工具，顯示 Minecraft PC & "
+#~ "PE 伺服器資訊。"
+
+#~ msgid "Minecraft PC & PE Server Status"
+#~ msgstr "Minecraft PC & PE 伺服器狀態"
 
 #~ msgid "1000 = 1 second, the minimum can be set to 5000"
 #~ msgstr "1000 = 1秒，最小可設定為 5000"

@@ -1,4 +1,4 @@
-=== Minecraft PC & PE Server Status (MCServerStatus) ===
+=== Server Status For Minecraft PC & PE (MCServerStatus) ===
 Contributors: GoneTone
 Donate link: https://qr.allpay.com.tw/ffSH4
 Tags: MCServerStatus, Status, Minecraft, Minecraft PE, Minecraft PC, Minecraft Server Status, Minecraft PC & PE Server Status, Minecraft Server, MinecraftQuery, Query
@@ -8,10 +8,10 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Minecraft PC & PE Server Status is a WordPress Widget, show Minecraft PC & PE server data.
+Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC & PE server data.
 
 == Description ==
-Minecraft PC & PE Server Status is a WordPress Widget, show Minecraft PC & PE server data.
+Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC & PE server data.
 
 You can display / hide these information:
 
