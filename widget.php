@@ -30,6 +30,9 @@ Domain Path: /lang
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+// load localization
+load_plugin_textdomain('mcserverstatus', false, dirname( plugin_basename( __FILE__ ) ) . '/lang');
+
 require dirname(__FILE__) . '/libs/Widgetize.php';
 require dirname(__FILE__) . '/libs/ApiClient.php';
 require dirname(__FILE__) . '/libs/MinecraftQuery.php';
@@ -62,8 +65,6 @@ class MCServerStatus_Widget extends Widgetize
 			'set_seconds' => '15',
 			'show_donate_info' => ''
         ));
-        // load localization
-        load_plugin_textdomain('mcserverstatus', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/');
     }
     
 
