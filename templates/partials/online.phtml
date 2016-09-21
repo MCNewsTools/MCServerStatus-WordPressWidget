@@ -16,7 +16,7 @@
     <?php endif; ?>
 	
 	<?php if (isset($instance['show_server_platform']) && $instance['show_server_platform']): ?>
-        <?php _e('Server platform', 'mcserverstatus'); ?>: <strong><?php echo $server['server']['server_platform']; ?></strong><br>
+        <?php _e('Server platform', 'mcserverstatus'); ?>: <strong><?php if ($server['server']['server_platform'] == 'MINECRAFT') {echo 'Minecraft';} else if ($server['server']['server_platform'] == 'MINECRAFTPE') {echo 'Minecraft: Pocket Edition';} else {echo $server['server']['server_platform'];} ?></strong><br>
     <?php endif; ?>
 
     <?php if (isset($instance['show_server_software']) && $instance['show_server_software']): ?>
@@ -67,9 +67,9 @@
 		<?php foreach ($server['players'] as $player) : ?>
 			<?php if (isset($instance['show_players_avatar']) && $instance['show_players_avatar']) { ?>
 				<?php if ($server['server']['server_platform'] == 'MINECRAFT') { ?>
-					<?php echo '　<img src="http://cravatar.eu/helmavatar/' . $player['name'] . '/' . $instance['avatar-size'] . '.png">'; ?>
+					<?php echo '　<img src="http://cravatar.eu/helmhead/' . $player['name'] . '/' . $instance['avatar-size'] . '.png">'; ?>
 				<?php } else { ?>
-					<?php echo '　<img src="http://cravatar.eu/helmavatar/steve/' . $instance['avatar-size'] . '.png">'; ?>
+					<?php echo '　<img src="http://cravatar.eu/helmhead/steve/' . $instance['avatar-size'] . '.png">'; ?>
 				<?php } ?>
 			<?php } else { ?>
 				<?php echo '<span>　- ' . $player['name'] . '</span><br>'; ?>

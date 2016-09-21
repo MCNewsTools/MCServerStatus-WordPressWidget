@@ -58,5 +58,8 @@ This method uses GameSpy4 protocol, and requires enabling query listener in your
 - query.port=25565
 
 == Changelog ==
+= 1.1.0 =
+* Some fine-tuning
+
 = 1.0.0 =
 * First release
