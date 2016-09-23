@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Server Status For Minecraft PC & PE (MCServerStatus)
-Plugin URI: https://github.com/GoneTone/MCServerStatus
+Plugin URI: https://github.com/MCServerStatus/MCServerStatus-WordPressWidget
 Description: Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC & PE server data.
 Version: 1.1.0
 Author: 旋風之音 GoneTone
