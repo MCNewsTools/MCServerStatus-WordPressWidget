@@ -13,6 +13,8 @@ Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC & P
 == Description ==
 Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC & PE server data.
 
+GitHub: https://github.com/MCServerStatus/MCServerStatus-WordPressWidget
+
 You can display / hide these information:
 
  * Server name (MOTD)
@@ -58,6 +60,9 @@ This method uses GameSpy4 protocol, and requires enabling query listener in your
 - query.port=25565
 
 == Changelog ==
+= 1.1.1 =
+* Add Russian Translation, Thanks vvzar.
+
 = 1.1.0 =
 * Some fine-tuning
 
