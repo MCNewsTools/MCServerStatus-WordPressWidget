@@ -73,7 +73,7 @@ class MCServerStatus_Widget extends Widgetize
      * @param array $args
      * @param array $instance
      */
-    public function widget(array $args, array $instance)
+    public function widget($args, $instance)
     {
         $instance = $this->hydrate($instance);
 
@@ -92,7 +92,7 @@ class MCServerStatus_Widget extends Widgetize
      * @param array $instance
      * @return string|void
      */
-    public function form(array $instance)
+    public function form($instance)
     {
         $instance = $this->hydrate($instance);
         require dirname(__FILE__) . '/templates/form.phtml';
