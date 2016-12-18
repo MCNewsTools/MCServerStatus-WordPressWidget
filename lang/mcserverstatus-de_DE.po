@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mcserverstatus\n"
+"POT-Creation-Date: 2016-12-18 19:03+0100\n"
+"PO-Revision-Date: 2016-12-18 19:13+0100\n"
+"Language-Team: 科技玩客 TechPlayer, LLC. <team@techplayer.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __;_e;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Server Status For Minecraft PC & PE (MCServerStatus)"
+msgstr "Server Status For Minecraft PC & PE (MCServerStatus)"
+
+#. Description of the plugin/theme
+msgid ""
+"Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC "
+"& PE server data."
+msgstr ""
+"Server Status For Minecraft PC & PE ist ein WordPress-Widget, dass Server-"
+"Daten für Minecraft PC & PE-Server anzeigt."
+
+#: ../mcserverstatus/templates/form.phtml:6
+msgid "Precautions"
+msgstr "Vorsichtsmaßnahmen"
+
+#: ../mcserverstatus/templates/form.phtml:13
+msgid ""
+"This method uses GameSpy4 protocol, and requires enabling query listener in "
+"your server.properties like this:"
+msgstr ""
+"Diese Methode nutzt das GameSpy4-Protokoll und benötigt den Query-Listener "
+"in deiner server.properties wie folgt:"
+
+#: ../mcserverstatus/templates/form.phtml:28
+msgid "General options"
+msgstr "Allgemeine Optionen"
+
+#: ../mcserverstatus/templates/form.phtml:34
+msgid "Title"
+msgstr "Titel"
+
+#: ../mcserverstatus/templates/form.phtml:40
+#: ../mcserverstatus/templates/partials/offline.phtml:11
+#: ../mcserverstatus/templates/partials/online.phtml:15
+msgid "Host"
+msgstr "Host"
+
+#: ../mcserverstatus/templates/form.phtml:46
+msgid "Port"
+msgstr "Port"
+
+#: ../mcserverstatus/templates/form.phtml:52
+msgid "Player Avatar size"
+msgstr "Spieler-Avatar-Größe"
+
+#: ../mcserverstatus/templates/form.phtml:58
+msgid "Web Site"
+msgstr "Website"
+
+#: ../mcserverstatus/templates/form.phtml:64
+#: ../mcserverstatus/templates/partials/online.phtml:35
+msgid "DynMap"
+msgstr "DynMap"
+
+#: ../mcserverstatus/templates/form.phtml:79
+msgid "Display options"
+msgstr "Anzeigeeinstellungen"
+
+#: ../mcserverstatus/templates/form.phtml:85
+msgid "Show Server MOTD"
+msgstr "Zeige Server MOTD"
+
+#: ../mcserverstatus/templates/form.phtml:91
+msgid "Show status"
+msgstr "Zeige Status"
+
+#: ../mcserverstatus/templates/form.phtml:97
+msgid "Show host"
+msgstr "Zeige Host"
+
+#: ../mcserverstatus/templates/form.phtml:103
+msgid "Show port"
+msgstr "Zeige Port"
+
+#: ../mcserverstatus/templates/form.phtml:109
+msgid "Show server platform"
+msgstr "Zeige Server-Plattform"
+
+#: ../mcserverstatus/templates/form.phtml:115
+msgid "Show server software"
+msgstr "Zeige Server-Software"
+
+#: ../mcserverstatus/templates/form.phtml:121
+msgid "Show game version"
+msgstr "Zeige Spiel-Version"
+
+#: ../mcserverstatus/templates/form.phtml:127
+msgid "Show plugins"
+msgstr "Zeige Plugins"
+
+#: ../mcserverstatus/templates/form.phtml:136
+msgid "Show players"
+msgstr "Zeige Spieler"
+
+#: ../mcserverstatus/templates/form.phtml:142
+msgid "Show players avatar"
+msgstr "Zeige Spieler-Avatare"
+
+#: ../mcserverstatus/templates/form.phtml:142
+msgid "MCPE will show Steve avatar"
+msgstr "MCPE wird Steve-Avatare anzeigen"
+
+#: ../mcserverstatus/templates/form.phtml:148
+msgid "Show player list automatically"
+msgstr "Zeige Spielerliste automatisch"
+
+#: ../mcserverstatus/templates/form.phtml:163
+msgid "Advanced options"
+msgstr "Erweiterte Optionen"
+
+#: ../mcserverstatus/templates/form.phtml:169
+msgid "Auto update status"
+msgstr "Status Auto-Update"
+
+#: ../mcserverstatus/templates/form.phtml:175
+msgid "Set seconds"
+msgstr "Setze Sekunden"
+
+#: ../mcserverstatus/templates/form.phtml:175
+msgid "The minimum can be set to 5 second"
+msgstr "Das Minimum beträgt 5 Sekunden"
+
+#: ../mcserverstatus/templates/form.phtml:190
+msgid "About"
+msgstr "Über"
+
+#: ../mcserverstatus/templates/form.phtml:197
+msgid "Author Facebook:"
+msgstr "Autor auf Facebook:"
+
+#: ../mcserverstatus/templates/form.phtml:198
+msgid "Author Twitter:"
+msgstr "Autor auf Twitter:"
+
+#: ../mcserverstatus/templates/form.phtml:199
+msgid "Author GitHub:"
+msgstr "Autor auf GitHub:"
+
+#: ../mcserverstatus/templates/form.phtml:200
+msgid "Plugin GitHub:"
+msgstr "Plugin GitHub:"
+
+#: ../mcserverstatus/templates/form.phtml:207
+msgid "Donate:"
+msgstr "Spenden:"
+
+#: ../mcserverstatus/templates/form.phtml:210
+msgid "Your Donate is our motivation!"
+msgstr "Deine Spende ist unsere Motivation!"
+
+#: ../mcserverstatus/templates/form.phtml:219
+msgid "Show donate info"
+msgstr "Zeige Spenden-Info"
+
+#: ../mcserverstatus/templates/form.phtml:219
+msgid ""
+"This option does not force checked, check it and we will be grateful that you"
+msgstr ""
+"Diese Option ist nicht erzwungen abgehakt und wir wären es dir danken, wenn "
+"du es tun könntest"
+
+#: ../mcserverstatus/templates/partials/offline.phtml:7
+#: ../mcserverstatus/templates/partials/online.phtml:11
+msgid "Status"
+msgstr "Status"
+
+#: ../mcserverstatus/templates/partials/offline.phtml:7
+msgid "Offline"
+msgstr "Offline"
+
+#: ../mcserverstatus/templates/partials/offline.phtml:15
+#: ../mcserverstatus/templates/partials/online.phtml:31
+msgid "Website"
+msgstr "Website"
+
+#: ../mcserverstatus/templates/partials/offline.phtml:19
+#: ../mcserverstatus/templates/partials/online.phtml:90
+msgid "Download this plugin:"
+msgstr "Lade dieses Plugin herunter:"
+
+#: ../mcserverstatus/templates/partials/offline.phtml:19
+#: ../mcserverstatus/templates/partials/online.phtml:90
+msgid "Server Status For Minecraft PC & PE"
+msgstr "Server Status For Minecraft PC & PE"
+
+#: ../mcserverstatus/templates/partials/offline.phtml:20
+#: ../mcserverstatus/templates/partials/online.phtml:91
+msgid "Donate this plugin:"
+msgstr "Dem Plugin-Entwickler spenden:"
+
+#: ../mcserverstatus/templates/partials/offline.phtml:20
+#: ../mcserverstatus/templates/partials/online.phtml:91
+msgid "allPay"
+msgstr "allPay"
+
+#: ../mcserverstatus/templates/partials/offline.phtml:20
+#: ../mcserverstatus/templates/partials/online.phtml:91
+msgid "PayPal"
+msgstr "PayPal"
+
+#: ../mcserverstatus/templates/partials/online.phtml:7
+msgid "Server MOTD"
+msgstr "Server-MOTD"
+
+#: ../mcserverstatus/templates/partials/online.phtml:11
+msgid "Online"
+msgstr "Online"
+
+#: ../mcserverstatus/templates/partials/online.phtml:19
+msgid "Server platform"
+msgstr "Server-Plattform"
+
+#: ../mcserverstatus/templates/partials/online.phtml:23
+msgid "Server software"
+msgstr "Server-Software"
+
+#: ../mcserverstatus/templates/partials/online.phtml:27
+msgid "Game version"
+msgstr "Spiel-Version"
+
+#: ../mcserverstatus/templates/partials/online.phtml:40
+msgid "Plugins"
+msgstr "Plugins"
+
+#: ../mcserverstatus/templates/partials/online.phtml:41
+msgid "Plugins list"
+msgstr "Plugin-Liste"
+
+#: ../mcserverstatus/templates/partials/online.phtml:43
+msgid "Plugins: <strong>Not found</strong>"
+msgstr "Plugins: <strong>Nicht gefunden</strong>"
+
+#: ../mcserverstatus/templates/partials/online.phtml:56
+#: ../mcserverstatus/templates/partials/online.phtml:60
+msgid "Players"
+msgstr "Spieler"
+
+#: ../mcserverstatus/templates/partials/online.phtml:57
+msgid "Players list"
+msgstr "Spieler-Liste"
