@@ -60,6 +60,9 @@ This method uses GameSpy4 protocol, and requires enabling query listener in your
 - query.port=25565
 
 == Changelog ==
+= 1.1.2 =
+* Add German translation, By koyuawsmbrtn.
+
 = 1.1.1 =
 * Add Russian Translation, Thanks vvzar.
 
