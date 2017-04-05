@@ -67,9 +67,9 @@
 		<?php foreach ($server['players'] as $player) : ?>
 			<?php if (isset($instance['show_players_avatar']) && $instance['show_players_avatar']) { ?>
 				<?php if ($server['server']['server_platform'] == 'MINECRAFT') { ?>
-					<?php echo '　<img src="http://cravatar.eu/helmhead/' . $player['name'] . '/' . $instance['avatar-size'] . '.png">'; ?>
+					<?php echo '　<img src="https://cravatar.eu/helmhead/' . $player['name'] . '/' . $instance['avatar-size'] . '.png">'; ?>
 				<?php } else { ?>
-					<?php echo '　<img src="http://cravatar.eu/helmhead/steve/' . $instance['avatar-size'] . '.png">'; ?>
+					<?php echo '　<img src="https://cravatar.eu/helmhead/steve/' . $instance['avatar-size'] . '.png">'; ?>
 				<?php } ?>
 			<?php } else { ?>
 				<?php echo '<span>　- ' . $player['name'] . '</span><br>'; ?>
