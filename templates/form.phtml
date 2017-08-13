@@ -3,14 +3,14 @@
         <td colspan="2">&nbsp;</td>
     </tr>
 	<tr>
-    <td colspan="2"><strong><?php _e('Precautions', 'mcserverstatus'); ?></strong></td>
+    <td colspan="2"><strong><?php echo esc_html__('Precautions', 'mcserverstatus'); ?></strong></td>
     </tr>
     <tr>
         <td colspan="2"><hr class="minestatus"></td>
     </tr>
 	<tr>
 		<td>
-			<?php _e('This method uses GameSpy4 protocol, and requires enabling query listener in your server.properties like this:', 'mcserverstatus'); ?><br>
+			<?php echo esc_html__('This method uses GameSpy4 protocol, and requires enabling query listener in your server.properties like this:', 'mcserverstatus'); ?><br>
 			- <font color="red">enable-query=true</font><br>
 			- <font color="red">query.port=25565</font>
 		</td>
@@ -22,46 +22,46 @@
         <td colspan="2">&nbsp;</td>
     </tr>
 </table>
-	
+
 <table width="100%">
     <tr>
-    <td colspan="2"><strong><?php _e('General options', 'mcserverstatus'); ?></strong></td>
+    <td colspan="2"><strong><?php echo esc_html__('General options', 'mcserverstatus'); ?></strong></td>
     </tr>
     <tr>
         <td colspan="2"><hr class="minestatus"></td>
     </tr>
     <tr>
-    <td width="20%"><?php _e('Title', 'mcserverstatus'); ?></td>
+    <td width="20%"><?php echo esc_html__('Title', 'mcserverstatus'); ?></td>
         <td>
             <input class="widefat" id="minestatus_title" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $instance['title']; ?>">
         </td>
     </tr>
     <tr>
-    <td width="20%"><?php _e('Host', 'mcserverstatus'); ?></td>
+    <td width="20%"><?php echo esc_html__('Host', 'mcserverstatus'); ?></td>
         <td>
             <input class="widefat" id="minestatus_host" name="<?php echo $this->get_field_name('host'); ?>" type="text" value="<?php echo $instance['host']; ?>">
         </td>
     </tr>
     <tr>
-    <td width="20%"><?php _e('Port', 'mcserverstatus'); ?></td>
+    <td width="20%"><?php echo esc_html__('Port', 'mcserverstatus'); ?></td>
         <td>
             <input class="widefat" id="minestatus_port" name="<?php echo $this->get_field_name('port'); ?>" type="text" value="<?php echo $instance['port']; ?>">
         </td>
     </tr>
 	<tr>
-    <td width="20%"><?php _e('Player Avatar size', 'mcserverstatus'); ?></td>
+    <td width="20%"><?php echo esc_html__('Player Avatar size', 'mcserverstatus'); ?></td>
         <td>
             <input class="widefat" id="minestatus_avatar_size" name="<?php echo $this->get_field_name('avatar-size'); ?>" type="text" value="<?php echo $instance['avatar-size']; ?>">
         </td>
     </tr>
     <tr>
-    <td width="20%"><?php _e('Web Site', 'mcserverstatus'); ?></td>
+    <td width="20%"><?php echo esc_html__('Web Site', 'mcserverstatus'); ?></td>
         <td>
             <input class="widefat" id="minestatus_website" name="<?php echo $this->get_field_name('website'); ?>" type="text" value="<?php echo $instance['website']; ?>">
         </td>
     </tr>
     <tr>
-    <td width="20%"><?php _e('DynMap', 'mcserverstatus'); ?></td>
+    <td width="20%"><?php echo esc_html__('DynMap', 'mcserverstatus'); ?></td>
         <td>
             <input class="widefat" id="minestatus_dynmap" name="<?php echo $this->get_field_name('dynmap'); ?>" type="text" value="<?php echo $instance['dynmap']; ?>">
         </td>
@@ -76,55 +76,55 @@
 
 <table width="100%">
     <tr>
-    <td colspan="2"><strong><?php _e('Display options', 'mcserverstatus'); ?></strong></td>
+    <td colspan="2"><strong><?php echo esc_html__('Display options', 'mcserverstatus'); ?></strong></td>
     </tr>
     <tr>
         <td colspan="2"><hr class="minestatus"></td>
     </tr>
 	<tr>
-    <td><?php _e('Show Server MOTD', 'mcserverstatus'); ?></td>
+    <td><?php echo esc_html__('Show Server MOTD', 'mcserverstatus'); ?></td>
         <td style="text-align:right;">
             <input id="minestatus_show_server_motd" name="<?php echo $this->get_field_name('show_server_motd'); ?>" type="checkbox" value="on" <?php echo ($instance['show_server_motd'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
     </tr>
     <tr>
-    <td><?php _e('Show status', 'mcserverstatus'); ?></td>
+    <td><?php echo esc_html__('Show status', 'mcserverstatus'); ?></td>
         <td style="text-align:right;">
             <input id="minestatus_show_status" name="<?php echo $this->get_field_name('show_status'); ?>" type="checkbox" value="on" <?php echo ($instance['show_status'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
     </tr>
     <tr>
-    <td><?php _e('Show host', 'mcserverstatus'); ?></td>
+    <td><?php echo esc_html__('Show host', 'mcserverstatus'); ?></td>
         <td style="text-align:right;">
             <input id="minestatus_show_host" name="<?php echo $this->get_field_name('show_host'); ?>" type="checkbox" value="on" <?php echo ($instance['show_host'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
     </tr>
     <tr>
-    <td><?php _e('Show port', 'mcserverstatus'); ?></td>
+    <td><?php echo esc_html__('Show port', 'mcserverstatus'); ?></td>
         <td style="text-align:right;">
             <input id="minestatus_show_port" name="<?php echo $this->get_field_name('show_port'); ?>" type="checkbox" value="on" <?php echo ($instance['show_port'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
     </tr>
 	<tr>
-    <td><?php _e('Show server platform', 'mcserverstatus'); ?></td>
+    <td><?php echo esc_html__('Show server platform', 'mcserverstatus'); ?></td>
         <td style="text-align:right;">
             <input id="minestatus_show_server_software" name="<?php echo $this->get_field_name('show_server_platform'); ?>" type="checkbox" value="on" <?php echo ($instance['show_server_platform'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
     </tr>
 	<tr>
-    <td><?php _e('Show server software', 'mcserverstatus'); ?></td>
+    <td><?php echo esc_html__('Show server software', 'mcserverstatus'); ?></td>
         <td style="text-align:right;">
             <input id="minestatus_show_server_software" name="<?php echo $this->get_field_name('show_server_software'); ?>" type="checkbox" value="on" <?php echo ($instance['show_server_software'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
     </tr>
     <tr>
-    <td><?php _e('Show game version', 'mcserverstatus'); ?></td>
+    <td><?php echo esc_html__('Show game version', 'mcserverstatus'); ?></td>
         <td style="text-align:right;">
             <input id="minestatus_show_game_version" name="<?php echo $this->get_field_name('show_game_version'); ?>" type="checkbox" value="on" <?php echo ($instance['show_game_version'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
     </tr>
     <tr>
-    <td><?php _e('Show plugins', 'mcserverstatus'); ?></td>
+    <td><?php echo esc_html__('Show plugins', 'mcserverstatus'); ?></td>
         <td style="text-align:right;">
             <input id="minestatus_show_plugins" name="<?php echo $this->get_field_name('show_plugins'); ?>" type="checkbox" value="on" <?php echo ($instance['show_plugins'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
@@ -133,19 +133,19 @@
         <td colspan="2"><hr class="minestatus"></td>
     </tr>
     <tr>
-    <td><?php _e('Show players', 'mcserverstatus'); ?></td>
+    <td><?php echo esc_html__('Show players', 'mcserverstatus'); ?></td>
         <td style="text-align:right;">
             <input id="minestatus_show_players" name="<?php echo $this->get_field_name('show_players'); ?>" type="checkbox" value="on" <?php echo ($instance['show_players'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
     </tr>
 	<tr>
-    <td><?php _e('Show players avatar', 'mcserverstatus'); ?> (<font color="red"><?php _e('MCPE will show Steve avatar', 'mcserverstatus'); ?></font>)</td>
+    <td><?php echo esc_html__('Show players avatar', 'mcserverstatus'); ?> (<font color="red"><?php echo esc_html__('MCPE will show Steve avatar', 'mcserverstatus'); ?></font>)</td>
         <td style="text-align:right;">
             <input id="minestatus_show_players" name="<?php echo $this->get_field_name('show_players_avatar'); ?>" type="checkbox" value="on" <?php echo ($instance['show_players_avatar'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
     </tr>
     <tr>
-    <td><?php _e('Show player list automatically', 'mcserverstatus'); ?></td>
+    <td><?php echo esc_html__('Show player list automatically', 'mcserverstatus'); ?></td>
         <td style="text-align:right;">
             <input id="minestatus_show_auto_players" name="<?php echo $this->get_field_name('show_auto_players'); ?>" type="checkbox" value="on" <?php echo ($instance['show_auto_players'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
@@ -160,19 +160,19 @@
         <td colspan="2">&nbsp;</td>
     </tr>
 	<tr>
-    <td colspan="2"><strong><?php _e('Advanced options', 'mcserverstatus'); ?></strong></td>
+    <td colspan="2"><strong><?php echo esc_html__('Advanced options', 'mcserverstatus'); ?></strong></td>
     </tr>
     <tr>
         <td colspan="2"><hr class="minestatus"></td>
     </tr>
 	<tr>
-    <td><?php _e('Auto update status', 'mcserverstatus'); ?> (<font color="red">Beta</font>)</td>
+    <td><?php echo esc_html__('Auto update status', 'mcserverstatus'); ?> (<font color="red">Beta</font>)</td>
         <td style="text-align:right;">
             <input id="minestatus_auto_update_status" name="<?php echo $this->get_field_name('auto_update_status'); ?>" type="checkbox" value="on" <?php echo ($instance['auto_update_status'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>
     </tr>
 	<tr>
-    <td width="80%"><?php _e('Set seconds', 'mcserverstatus'); ?> (<font color="red"><?php _e('The minimum can be set to 5 second', 'mcserverstatus'); ?></font>)</td>
+    <td width="80%"><?php echo esc_html__('Set seconds', 'mcserverstatus'); ?> (<font color="red"><?php echo esc_html__('The minimum can be set to 5 second', 'mcserverstatus'); ?></font>)</td>
         <td>
             <input class="widefat" id="minestatus_set_seconds" name="<?php echo $this->get_field_name('set_seconds'); ?>" type="text" value="<?php echo $instance['set_seconds']; ?>">
         </td>
@@ -187,27 +187,27 @@
         <td colspan="2">&nbsp;</td>
     </tr>
 	<tr>
-    <td colspan="2"><strong><?php _e('About', 'mcserverstatus'); ?></strong></td>
+    <td colspan="2"><strong><?php echo esc_html__('About', 'mcserverstatus'); ?></strong></td>
     </tr>
     <tr>
         <td colspan="2"><hr class="minestatus"></td>
     </tr>
 	<tr>
 		<td>
-			<?php _e('Author Facebook:', 'mcserverstatus'); ?> <a href="https://www.facebook.com/TPGoneTone/" target="_blank">https://www.facebook.com/TPGoneTone/</a><br>
-			<?php _e('Author Twitter:', 'mcserverstatus'); ?> <a href="https://twitter.com/TPGoneTone/" target="_blank">https://twitter.com/TPGoneTone/</a><br>
-			<?php _e('Author GitHub:', 'mcserverstatus'); ?> <a href="https://github.com/GoneTone/" target="_blank">https://github.com/GoneTone/</a><br><br>
-			<?php _e('Plugin GitHub:', 'mcserverstatus'); ?> <a href="https://github.com/MCServerStatus/MCServerStatus-WordPressWidget" target="_blank">https://github.com/MCServerStatus/MCServerStatus-WordPressWidget</a>
+			<?php echo esc_html__('Author Facebook:', 'mcserverstatus'); ?> <a href="https://www.facebook.com/TPGoneTone/" target="_blank">https://www.facebook.com/TPGoneTone/</a><br>
+			<?php echo esc_html__('Author Twitter:', 'mcserverstatus'); ?> <a href="https://twitter.com/TPGoneTone/" target="_blank">https://twitter.com/TPGoneTone/</a><br>
+			<?php echo esc_html__('Author GitHub:', 'mcserverstatus'); ?> <a href="https://github.com/GoneTone/" target="_blank">https://github.com/GoneTone/</a><br><br>
+			<?php echo esc_html__('Plugin GitHub:', 'mcserverstatus'); ?> <a href="https://github.com/MCNewsTools/MCServerStatus-WordPressWidget" target="_blank">https://github.com/MCNewsTools/MCServerStatus-WordPressWidget</a>
 		</td>
 	</tr>
 	<tr>
         <td colspan="2"><hr class="minestatus"></td>
     </tr>
 	<tr>
-	<td><strong><?php _e('Donate:', 'mcserverstatus'); ?></strong></td>
+	<td><strong><?php echo esc_html__('Donate:', 'mcserverstatus'); ?></strong></td>
 	</tr>
 	<tr>
-	<td><font color="red"><?php _e('Your Donate is our motivation!', 'mcserverstatus'); ?></font></td>
+	<td><font color="red"><?php echo esc_html__('Your Donate is our motivation!', 'mcserverstatus'); ?></font></td>
 	</tr>
 	<tr>
 		<td>
@@ -216,7 +216,7 @@
 		</td>
 	</tr>
 	<tr>
-    <td><font color="#0000FF"><?php _e('Show donate info', 'mcserverstatus'); ?></font> (<font color="red"><?php _e('This option does not force checked, check it and we will be grateful that you', 'mcserverstatus'); ?></font>)</td>
+    <td><font color="#0000FF"><?php echo esc_html__('Show donate info', 'mcserverstatus'); ?></font> (<font color="red"><?php echo esc_html__('This option does not force checked, check it and we will be grateful that you', 'mcserverstatus'); ?></font>)</td>
         <td style="text-align:right;">
             <input id="minestatus_show_donate_info" name="<?php echo $this->get_field_name('show_donate_info'); ?>" type="checkbox" value="on" <?php echo ($instance['show_donate_info'] == 'on') ? 'checked="checked"' : ''; ?>>
         </td>

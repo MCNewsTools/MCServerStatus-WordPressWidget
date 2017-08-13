@@ -1,257 +1,245 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mcserverstatus\n"
-"POT-Creation-Date: 2016-09-16 12:19+0800\n"
-"PO-Revision-Date: 2016-09-16 12:21+0800\n"
+"POT-Creation-Date: 2017-08-13 14:04+0800\n"
+"PO-Revision-Date: 2017-08-13 14:04+0800\n"
 "Last-Translator: 科技玩客 TechPlayer\n"
 "Language-Team: 科技玩客 TechPlayer, LLC. <team@techplayer.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
-"X-Poedit-KeywordsList: __;_e;gettext;gettext_noop\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-KeywordsList: __;_e;gettext;gettext_noop;esc_html__\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#. Plugin Name of the plugin/theme
-msgid "Server Status For Minecraft PC & PE (MCServerStatus)"
-msgstr "服务器状态 For Minecraft PC & PE (MCServerStatus)"
-
-#. Description of the plugin/theme
-msgid ""
-"Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC "
-"& PE server data."
-msgstr ""
-"服务器状态 For Minecraft PC & PE 是一个 WordPress 小工具，显示 Minecraft PC "
-"& PE 伺服器资讯。"
-
-#: ../mcserverstatus/templates/form.phtml:6
+#: templates/form.phtml:6
 msgid "Precautions"
 msgstr "注意事项"
 
-#: ../mcserverstatus/templates/form.phtml:13
+#: templates/form.phtml:13
 msgid ""
 "This method uses GameSpy4 protocol, and requires enabling query listener in "
 "your server.properties like this:"
 msgstr "此方法使用 GameSpy4 协议，需要在 server.properties 启用查询侦听器:"
 
-#: ../mcserverstatus/templates/form.phtml:28
+#: templates/form.phtml:28
 msgid "General options"
 msgstr "一般选项"
 
-#: ../mcserverstatus/templates/form.phtml:34
+#: templates/form.phtml:34
 msgid "Title"
 msgstr "标题"
 
-#: ../mcserverstatus/templates/form.phtml:40
-#: ../mcserverstatus/templates/partials/offline.phtml:11
-#: ../mcserverstatus/templates/partials/online.phtml:15
+#: templates/form.phtml:40 templates/partials/offline.phtml:11
+#: templates/partials/online.phtml:15
 msgid "Host"
 msgstr "服务器 IP"
 
-#: ../mcserverstatus/templates/form.phtml:46
+#: templates/form.phtml:46
 msgid "Port"
 msgstr "端口"
 
-#: ../mcserverstatus/templates/form.phtml:52
+#: templates/form.phtml:52
 msgid "Player Avatar size"
 msgstr "玩家头像大小"
 
-#: ../mcserverstatus/templates/form.phtml:58
+#: templates/form.phtml:58
 msgid "Web Site"
 msgstr "网站"
 
-#: ../mcserverstatus/templates/form.phtml:64
-#: ../mcserverstatus/templates/partials/online.phtml:35
+#: templates/form.phtml:64 templates/partials/online.phtml:35
 msgid "DynMap"
 msgstr "DynMap"
 
-#: ../mcserverstatus/templates/form.phtml:79
+#: templates/form.phtml:79
 msgid "Display options"
 msgstr "显示选项"
 
-#: ../mcserverstatus/templates/form.phtml:85
+#: templates/form.phtml:85
 msgid "Show Server MOTD"
 msgstr "显示服务器 MOTD"
 
-#: ../mcserverstatus/templates/form.phtml:91
+#: templates/form.phtml:91
 msgid "Show status"
 msgstr "显示状态"
 
-#: ../mcserverstatus/templates/form.phtml:97
+#: templates/form.phtml:97
 msgid "Show host"
 msgstr "显示服务器 IP"
 
-#: ../mcserverstatus/templates/form.phtml:103
+#: templates/form.phtml:103
 msgid "Show port"
 msgstr "显示端口"
 
-#: ../mcserverstatus/templates/form.phtml:109
+#: templates/form.phtml:109
 msgid "Show server platform"
 msgstr "显示服务器平台"
 
-#: ../mcserverstatus/templates/form.phtml:115
+#: templates/form.phtml:115
 msgid "Show server software"
 msgstr "显示服务器软体"
 
-#: ../mcserverstatus/templates/form.phtml:121
+#: templates/form.phtml:121
 msgid "Show game version"
 msgstr "显示游戏版本"
 
-#: ../mcserverstatus/templates/form.phtml:127
+#: templates/form.phtml:127
 msgid "Show plugins"
 msgstr "显示插件"
 
-#: ../mcserverstatus/templates/form.phtml:136
+#: templates/form.phtml:136
 msgid "Show players"
 msgstr "显示玩家"
 
-#: ../mcserverstatus/templates/form.phtml:142
+#: templates/form.phtml:142
 msgid "Show players avatar"
 msgstr "显示玩家头像"
 
-#: ../mcserverstatus/templates/form.phtml:142
+#: templates/form.phtml:142
 msgid "MCPE will show Steve avatar"
 msgstr "MCPE 将显示 Steve 头像"
 
-#: ../mcserverstatus/templates/form.phtml:148
+#: templates/form.phtml:148
 msgid "Show player list automatically"
 msgstr "自动显示玩家名单"
 
-#: ../mcserverstatus/templates/form.phtml:163
+#: templates/form.phtml:163
 msgid "Advanced options"
 msgstr "进阶选项"
 
-#: ../mcserverstatus/templates/form.phtml:169
+#: templates/form.phtml:169
 msgid "Auto update status"
 msgstr "自动更新状态"
 
-#: ../mcserverstatus/templates/form.phtml:175
+#: templates/form.phtml:175
 msgid "Set seconds"
 msgstr "设置秒数"
 
-#: ../mcserverstatus/templates/form.phtml:175
+#: templates/form.phtml:175
 msgid "The minimum can be set to 5 second"
 msgstr "最小可设置为 5 秒"
 
-#: ../mcserverstatus/templates/form.phtml:190
+#: templates/form.phtml:190
 msgid "About"
 msgstr "关于"
 
-#: ../mcserverstatus/templates/form.phtml:197
+#: templates/form.phtml:197
 msgid "Author Facebook:"
 msgstr "作者 Facebook:"
 
-#: ../mcserverstatus/templates/form.phtml:198
+#: templates/form.phtml:198
 msgid "Author Twitter:"
 msgstr "作者 Twitter:"
 
-#: ../mcserverstatus/templates/form.phtml:199
+#: templates/form.phtml:199
 msgid "Author GitHub:"
 msgstr "作者 GitHub:"
 
-#: ../mcserverstatus/templates/form.phtml:200
+#: templates/form.phtml:200
 msgid "Plugin GitHub:"
 msgstr "插件 GitHub:"
 
-#: ../mcserverstatus/templates/form.phtml:207
+#: templates/form.phtml:207
 msgid "Donate:"
 msgstr "捐款:"
 
-#: ../mcserverstatus/templates/form.phtml:210
+#: templates/form.phtml:210
 msgid "Your Donate is our motivation!"
 msgstr "您的捐款是我们的动力！"
 
-#: ../mcserverstatus/templates/form.phtml:219
+#: templates/form.phtml:219
 msgid "Show donate info"
 msgstr "显示捐款信息"
 
-#: ../mcserverstatus/templates/form.phtml:219
+#: templates/form.phtml:219
 msgid ""
 "This option does not force checked, check it and we will be grateful that you"
 msgstr "此选项并不强迫勾选，勾选它我们会很感谢您"
 
-#: ../mcserverstatus/templates/partials/offline.phtml:7
-#: ../mcserverstatus/templates/partials/online.phtml:11
+#: templates/partials/offline.phtml:7 templates/partials/online.phtml:11
 msgid "Status"
 msgstr "状态"
 
-#: ../mcserverstatus/templates/partials/offline.phtml:7
+#: templates/partials/offline.phtml:7
 msgid "Offline"
 msgstr "离线"
 
-#: ../mcserverstatus/templates/partials/offline.phtml:15
-#: ../mcserverstatus/templates/partials/online.phtml:31
+#: templates/partials/offline.phtml:15 templates/partials/online.phtml:31
 msgid "Website"
 msgstr "网站"
 
-#: ../mcserverstatus/templates/partials/offline.phtml:19
-#: ../mcserverstatus/templates/partials/online.phtml:90
+#: templates/partials/offline.phtml:19 templates/partials/online.phtml:90
 msgid "Download this plugin:"
 msgstr "下载此插件:"
 
-#: ../mcserverstatus/templates/partials/offline.phtml:19
-#: ../mcserverstatus/templates/partials/online.phtml:90
+#: templates/partials/offline.phtml:19 templates/partials/online.phtml:90
 msgid "Server Status For Minecraft PC & PE"
 msgstr "服务器状态 For Minecraft PC & PE"
 
-#: ../mcserverstatus/templates/partials/offline.phtml:20
-#: ../mcserverstatus/templates/partials/online.phtml:91
+#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
 msgid "Donate this plugin:"
 msgstr "捐款此插件:"
 
-#: ../mcserverstatus/templates/partials/offline.phtml:20
-#: ../mcserverstatus/templates/partials/online.phtml:91
+#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
 msgid "allPay"
 msgstr "欧付宝"
 
-#: ../mcserverstatus/templates/partials/offline.phtml:20
-#: ../mcserverstatus/templates/partials/online.phtml:91
+#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
 msgid "PayPal"
 msgstr "PayPal"
 
-#: ../mcserverstatus/templates/partials/online.phtml:7
+#: templates/partials/online.phtml:7
 msgid "Server MOTD"
 msgstr "服务器 MOTD"
 
-#: ../mcserverstatus/templates/partials/online.phtml:11
+#: templates/partials/online.phtml:11
 msgid "Online"
 msgstr "上线"
 
-#: ../mcserverstatus/templates/partials/online.phtml:19
+#: templates/partials/online.phtml:19
 msgid "Server platform"
 msgstr "服务器平台"
 
-#: ../mcserverstatus/templates/partials/online.phtml:23
+#: templates/partials/online.phtml:23
 msgid "Server software"
 msgstr "服务器软体"
 
-#: ../mcserverstatus/templates/partials/online.phtml:27
+#: templates/partials/online.phtml:27
 msgid "Game version"
 msgstr "游戏版本"
 
-#: ../mcserverstatus/templates/partials/online.phtml:40
+#: templates/partials/online.phtml:40
 msgid "Plugins"
 msgstr "插件"
 
-#: ../mcserverstatus/templates/partials/online.phtml:41
+#: templates/partials/online.phtml:41
 msgid "Plugins list"
 msgstr "插件列表"
 
-#: ../mcserverstatus/templates/partials/online.phtml:43
+#: templates/partials/online.phtml:43
 msgid "Plugins: <strong>Not found</strong>"
 msgstr "插件: <strong>未找到</strong>"
 
-#: ../mcserverstatus/templates/partials/online.phtml:56
-#: ../mcserverstatus/templates/partials/online.phtml:60
+#: templates/partials/online.phtml:56 templates/partials/online.phtml:60
 msgid "Players"
 msgstr "玩家"
 
-#: ../mcserverstatus/templates/partials/online.phtml:57
+#: templates/partials/online.phtml:57
 msgid "Players list"
 msgstr "玩家名单"
+
+#~ msgid "Server Status For Minecraft PC & PE (MCServerStatus)"
+#~ msgstr "服务器状态 For Minecraft PC & PE (MCServerStatus)"
+
+#~ msgid ""
+#~ "Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft "
+#~ "PC & PE server data."
+#~ msgstr ""
+#~ "服务器状态 For Minecraft PC & PE 是一个 WordPress 小工具，显示 Minecraft "
+#~ "PC & PE 伺服器资讯。"
 
 #~ msgid "Minecraft PC & PE Server Status (MCServerStatus)"
 #~ msgstr "Minecraft PC & PE 服务器状态 (MCServerStatus)"

@@ -1,0 +1,229 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mcserverstatus\n"
+"POT-Creation-Date: 2017-08-13 14:01+0800\n"
+"PO-Revision-Date: 2016-09-11 21:48+0800\n"
+"Last-Translator: 科技玩客 TechPlayer\n"
+"Language-Team: 科技玩客 TechPlayer, LLC. <team@techplayer.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-KeywordsList: __;_e;gettext;gettext_noop;esc_html__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: templates/form.phtml:6
+msgid "Precautions"
+msgstr ""
+
+#: templates/form.phtml:13
+msgid "This method uses GameSpy4 protocol, and requires enabling query listener in your server.properties like this:"
+msgstr ""
+
+#: templates/form.phtml:28
+msgid "General options"
+msgstr ""
+
+#: templates/form.phtml:34
+msgid "Title"
+msgstr ""
+
+#: templates/form.phtml:40 templates/partials/offline.phtml:11
+#: templates/partials/online.phtml:15
+msgid "Host"
+msgstr ""
+
+#: templates/form.phtml:46
+msgid "Port"
+msgstr ""
+
+#: templates/form.phtml:52
+msgid "Player Avatar size"
+msgstr ""
+
+#: templates/form.phtml:58
+msgid "Web Site"
+msgstr ""
+
+#: templates/form.phtml:64 templates/partials/online.phtml:35
+msgid "DynMap"
+msgstr ""
+
+#: templates/form.phtml:79
+msgid "Display options"
+msgstr ""
+
+#: templates/form.phtml:85
+msgid "Show Server MOTD"
+msgstr ""
+
+#: templates/form.phtml:91
+msgid "Show status"
+msgstr ""
+
+#: templates/form.phtml:97
+msgid "Show host"
+msgstr ""
+
+#: templates/form.phtml:103
+msgid "Show port"
+msgstr ""
+
+#: templates/form.phtml:109
+msgid "Show server platform"
+msgstr ""
+
+#: templates/form.phtml:115
+msgid "Show server software"
+msgstr ""
+
+#: templates/form.phtml:121
+msgid "Show game version"
+msgstr ""
+
+#: templates/form.phtml:127
+msgid "Show plugins"
+msgstr ""
+
+#: templates/form.phtml:136
+msgid "Show players"
+msgstr ""
+
+#: templates/form.phtml:142
+msgid "Show players avatar"
+msgstr ""
+
+#: templates/form.phtml:142
+msgid "MCPE will show Steve avatar"
+msgstr ""
+
+#: templates/form.phtml:148
+msgid "Show player list automatically"
+msgstr ""
+
+#: templates/form.phtml:163
+msgid "Advanced options"
+msgstr ""
+
+#: templates/form.phtml:169
+msgid "Auto update status"
+msgstr ""
+
+#: templates/form.phtml:175
+msgid "Set seconds"
+msgstr ""
+
+#: templates/form.phtml:175
+msgid "The minimum can be set to 5 second"
+msgstr ""
+
+#: templates/form.phtml:190
+msgid "About"
+msgstr ""
+
+#: templates/form.phtml:197
+msgid "Author Facebook:"
+msgstr ""
+
+#: templates/form.phtml:198
+msgid "Author Twitter:"
+msgstr ""
+
+#: templates/form.phtml:199
+msgid "Author GitHub:"
+msgstr ""
+
+#: templates/form.phtml:200
+msgid "Plugin GitHub:"
+msgstr ""
+
+#: templates/form.phtml:207
+msgid "Donate:"
+msgstr ""
+
+#: templates/form.phtml:210
+msgid "Your Donate is our motivation!"
+msgstr ""
+
+#: templates/form.phtml:219
+msgid "Show donate info"
+msgstr ""
+
+#: templates/form.phtml:219
+msgid "This option does not force checked, check it and we will be grateful that you"
+msgstr ""
+
+#: templates/partials/offline.phtml:7 templates/partials/online.phtml:11
+msgid "Status"
+msgstr ""
+
+#: templates/partials/offline.phtml:7
+msgid "Offline"
+msgstr ""
+
+#: templates/partials/offline.phtml:15 templates/partials/online.phtml:31
+msgid "Website"
+msgstr ""
+
+#: templates/partials/offline.phtml:19 templates/partials/online.phtml:90
+msgid "Download this plugin:"
+msgstr ""
+
+#: templates/partials/offline.phtml:19 templates/partials/online.phtml:90
+msgid "Server Status For Minecraft PC & PE"
+msgstr ""
+
+#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
+msgid "Donate this plugin:"
+msgstr ""
+
+#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
+msgid "allPay"
+msgstr ""
+
+#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
+msgid "PayPal"
+msgstr ""
+
+#: templates/partials/online.phtml:7
+msgid "Server MOTD"
+msgstr ""
+
+#: templates/partials/online.phtml:11
+msgid "Online"
+msgstr ""
+
+#: templates/partials/online.phtml:19
+msgid "Server platform"
+msgstr ""
+
+#: templates/partials/online.phtml:23
+msgid "Server software"
+msgstr ""
+
+#: templates/partials/online.phtml:27
+msgid "Game version"
+msgstr ""
+
+#: templates/partials/online.phtml:40
+msgid "Plugins"
+msgstr ""
+
+#: templates/partials/online.phtml:41
+msgid "Plugins list"
+msgstr ""
+
+#: templates/partials/online.phtml:43
+msgid "Plugins: <strong>Not found</strong>"
+msgstr ""
+
+#: templates/partials/online.phtml:56 templates/partials/online.phtml:60
+msgid "Players"
+msgstr ""
+
+#: templates/partials/online.phtml:57
+msgid "Players list"
+msgstr ""

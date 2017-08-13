@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mcserverstatus\n"
+"POT-Creation-Date: 2017-08-13 14:05+0800\n"
+"PO-Revision-Date: 2017-08-13 14:05+0800\n"
+"Last-Translator: \n"
+"Language-Team: 科技玩客 TechPlayer, LLC. <team@techplayer.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-KeywordsList: __;_e;gettext;gettext_noop;esc_html__\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: templates/form.phtml:6
+msgid "Precautions"
+msgstr "Vorsichtsmaßnahmen"
+
+#: templates/form.phtml:13
+msgid ""
+"This method uses GameSpy4 protocol, and requires enabling query listener in "
+"your server.properties like this:"
+msgstr ""
+"Diese Methode nutzt das GameSpy4-Protokoll und benötigt den Query-Listener "
+"in deiner server.properties wie folgt:"
+
+#: templates/form.phtml:28
+msgid "General options"
+msgstr "Allgemeine Optionen"
+
+#: templates/form.phtml:34
+msgid "Title"
+msgstr "Titel"
+
+#: templates/form.phtml:40 templates/partials/offline.phtml:11
+#: templates/partials/online.phtml:15
+msgid "Host"
+msgstr "Host"
+
+#: templates/form.phtml:46
+msgid "Port"
+msgstr "Port"
+
+#: templates/form.phtml:52
+msgid "Player Avatar size"
+msgstr "Spieler-Avatar-Größe"
+
+#: templates/form.phtml:58
+msgid "Web Site"
+msgstr "Website"
+
+#: templates/form.phtml:64 templates/partials/online.phtml:35
+msgid "DynMap"
+msgstr "DynMap"
+
+#: templates/form.phtml:79
+msgid "Display options"
+msgstr "Anzeigeeinstellungen"
+
+#: templates/form.phtml:85
+msgid "Show Server MOTD"
+msgstr "Zeige Server MOTD"
+
+#: templates/form.phtml:91
+msgid "Show status"
+msgstr "Zeige Status"
+
+#: templates/form.phtml:97
+msgid "Show host"
+msgstr "Zeige Host"
+
+#: templates/form.phtml:103
+msgid "Show port"
+msgstr "Zeige Port"
+
+#: templates/form.phtml:109
+msgid "Show server platform"
+msgstr "Zeige Server-Plattform"
+
+#: templates/form.phtml:115
+msgid "Show server software"
+msgstr "Zeige Server-Software"
+
+#: templates/form.phtml:121
+msgid "Show game version"
+msgstr "Zeige Spiel-Version"
+
+#: templates/form.phtml:127
+msgid "Show plugins"
+msgstr "Zeige Plugins"
+
+#: templates/form.phtml:136
+msgid "Show players"
+msgstr "Zeige Spieler"
+
+#: templates/form.phtml:142
+msgid "Show players avatar"
+msgstr "Zeige Spieler-Avatare"
+
+#: templates/form.phtml:142
+msgid "MCPE will show Steve avatar"
+msgstr "MCPE wird Steve-Avatare anzeigen"
+
+#: templates/form.phtml:148
+msgid "Show player list automatically"
+msgstr "Zeige Spielerliste automatisch"
+
+#: templates/form.phtml:163
+msgid "Advanced options"
+msgstr "Erweiterte Optionen"
+
+#: templates/form.phtml:169
+msgid "Auto update status"
+msgstr "Status Auto-Update"
+
+#: templates/form.phtml:175
+msgid "Set seconds"
+msgstr "Setze Sekunden"
+
+#: templates/form.phtml:175
+msgid "The minimum can be set to 5 second"
+msgstr "Das Minimum beträgt 5 Sekunden"
+
+#: templates/form.phtml:190
+msgid "About"
+msgstr "Über"
+
+#: templates/form.phtml:197
+msgid "Author Facebook:"
+msgstr "Autor auf Facebook:"
+
+#: templates/form.phtml:198
+msgid "Author Twitter:"
+msgstr "Autor auf Twitter:"
+
+#: templates/form.phtml:199
+msgid "Author GitHub:"
+msgstr "Autor auf GitHub:"
+
+#: templates/form.phtml:200
+msgid "Plugin GitHub:"
+msgstr "Plugin GitHub:"
+
+#: templates/form.phtml:207
+msgid "Donate:"
+msgstr "Spenden:"
+
+#: templates/form.phtml:210
+msgid "Your Donate is our motivation!"
+msgstr "Deine Spende ist unsere Motivation!"
+
+#: templates/form.phtml:219
+msgid "Show donate info"
+msgstr "Zeige Spenden-Info"
+
+#: templates/form.phtml:219
+msgid ""
+"This option does not force checked, check it and we will be grateful that you"
+msgstr ""
+"Diese Option ist nicht erzwungen abgehakt und wir wären es dir danken, wenn "
+"du es tun könntest"
+
+#: templates/partials/offline.phtml:7 templates/partials/online.phtml:11
+msgid "Status"
+msgstr "Status"
+
+#: templates/partials/offline.phtml:7
+msgid "Offline"
+msgstr "Offline"
+
+#: templates/partials/offline.phtml:15 templates/partials/online.phtml:31
+msgid "Website"
+msgstr "Website"
+
+#: templates/partials/offline.phtml:19 templates/partials/online.phtml:90
+msgid "Download this plugin:"
+msgstr "Lade dieses Plugin herunter:"
+
+#: templates/partials/offline.phtml:19 templates/partials/online.phtml:90
+msgid "Server Status For Minecraft PC & PE"
+msgstr "Server Status For Minecraft PC & PE"
+
+#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
+msgid "Donate this plugin:"
+msgstr "Dem Plugin-Entwickler spenden:"
+
+#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
+msgid "allPay"
+msgstr "allPay"
+
+#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
+msgid "PayPal"
+msgstr "PayPal"
+
+#: templates/partials/online.phtml:7
+msgid "Server MOTD"
+msgstr "Server-MOTD"
+
+#: templates/partials/online.phtml:11
+msgid "Online"
+msgstr "Online"
+
+#: templates/partials/online.phtml:19
+msgid "Server platform"
+msgstr "Server-Plattform"
+
+#: templates/partials/online.phtml:23
+msgid "Server software"
+msgstr "Server-Software"
+
+#: templates/partials/online.phtml:27
+msgid "Game version"
+msgstr "Spiel-Version"
+
+#: templates/partials/online.phtml:40
+msgid "Plugins"
+msgstr "Plugins"
+
+#: templates/partials/online.phtml:41
+msgid "Plugins list"
+msgstr "Plugin-Liste"
+
+#: templates/partials/online.phtml:43
+msgid "Plugins: <strong>Not found</strong>"
+msgstr "Plugins: <strong>Nicht gefunden</strong>"
+
+#: templates/partials/online.phtml:56 templates/partials/online.phtml:60
+msgid "Players"
+msgstr "Spieler"
+
+#: templates/partials/online.phtml:57
+msgid "Players list"
+msgstr "Spieler-Liste"
+
+#~ msgid "Server Status For Minecraft PC & PE (MCServerStatus)"
+#~ msgstr "Server Status For Minecraft PC & PE (MCServerStatus)"
+
+#~ msgid ""
+#~ "Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft "
+#~ "PC & PE server data."
+#~ msgstr ""
+#~ "Server Status For Minecraft PC & PE ist ein WordPress-Widget, dass Server-"
+#~ "Daten für Minecraft PC & PE-Server anzeigt."

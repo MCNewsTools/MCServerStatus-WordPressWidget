@@ -3,7 +3,7 @@ Contributors: GoneTone
 Donate link: https://qr.allpay.com.tw/ffSH4
 Tags: MCServerStatus, Status, Minecraft, Minecraft PE, Minecraft PC, Minecraft Server Status, Minecraft PC & PE Server Status, Minecraft Server, MinecraftQuery, Query
 Requires at least: 3.5
-Tested up to: 4.6.1
+Tested up to: 4.8.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC & P
 == Description ==
 Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC & PE server data.
 
-GitHub: https://github.com/MCServerStatus/MCServerStatus-WordPressWidget
+GitHub: https://github.com/MCNewsTools/MCServerStatus-WordPressWidget
 
 You can display / hide these information:
 
@@ -31,7 +31,7 @@ You can display / hide these information:
  * Player count (current / maximum)
  * Player list
  * Player skin avatar
- 
+
 and more features are planned.
 
 Other functions:
@@ -60,6 +60,9 @@ This method uses GameSpy4 protocol, and requires enabling query listener in your
 - query.port=25565
 
 == Changelog ==
+= 1.2.0 =
+* Update part of the code.
+
 = 1.1.2 =
 * Add German translation, By koyuawsmbrtn.
 

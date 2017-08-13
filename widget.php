@@ -4,14 +4,14 @@
 Plugin Name: Server Status For Minecraft PC & PE (MCServerStatus)
 Plugin URI: https://github.com/MCServerStatus/MCServerStatus-WordPressWidget
 Description: Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft PC & PE server data.
-Version: 1.1.2
+Version: 1.2.0
 Author: 旋風之音 GoneTone
 Author URI: https://www.facebook.com/TPGoneTone/
 Author email: p29022716@gmail.com
 License: GPL 2
 Donate URI: https://qr.allpay.com.tw/ffSH4
 Text Domain: mcserverstatus
-Domain Path: /lang
+Domain Path: /languages
 */
 
 /*  Copyright 2016 GoneTone (email: p29022716@gmail.com)
@@ -32,7 +32,7 @@ Domain Path: /lang
 */
 
 // load localization
-load_plugin_textdomain('mcserverstatus', false, dirname( plugin_basename( __FILE__ ) ) . '/lang');
+load_plugin_textdomain('mcserverstatus', FALSE, basename(dirname( __FILE__ )) . '/languages/');
 
 require dirname(__FILE__) . '/libs/Widgetize.php';
 require dirname(__FILE__) . '/libs/ApiClient.php';
@@ -67,7 +67,7 @@ class MCServerStatus_Widget extends Widgetize
 			'show_donate_info' => ''
         ));
     }
-    
+
 
     /**
      * @param array $args
@@ -115,9 +115,8 @@ class MCServerStatus_Widget extends Widgetize
         }
         return $instance;
     }
-    
+
 
 }
 
 Widgetize::add('MCServerStatus_Widget');
-
