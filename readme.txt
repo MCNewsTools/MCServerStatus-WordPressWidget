@@ -13,7 +13,7 @@ Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft Java a
 == Description ==
 Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft Java and Bedrock editions server data.
 
-GitHub: https://github.com/MCNewsTools/MCServerStatus-WordPressWidget
+GitHub: [https://github.com/MCNewsTools/MCServerStatus-WordPressWidget](https://github.com/MCNewsTools/MCServerStatus-WordPressWidget)
 
 You can display / hide these information:
 
