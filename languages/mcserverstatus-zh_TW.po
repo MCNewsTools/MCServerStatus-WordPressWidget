@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mcserverstatus\n"
-"POT-Creation-Date: 2018-06-29 10:32+0000\n"
-"PO-Revision-Date: 2018-06-29 18:36+0800\n"
+"POT-Creation-Date: 2018-06-29 13:55+0000\n"
+"PO-Revision-Date: 2018-06-29 21:55+0800\n"
 "Last-Translator: 科技玩客 TechPlayer\n"
 "Language-Team: 旋風之音 GoneTone <https://blog.reh.tw>\n"
 "Language: zh_TW\n"
@@ -79,7 +79,7 @@ msgstr "玩家頭像大小"
 msgid "Web Site"
 msgstr "網站"
 
-#: templates/form.php:80 templates/partials/online.php:43
+#: templates/form.php:80 templates/partials/online.php:50
 msgid "DynMap"
 msgstr "DynMap"
 
@@ -196,76 +196,76 @@ msgstr "此選項並不強迫勾選，勾選它我們會很感謝您"
 msgid "Server MOTD: "
 msgstr "伺服器 MOTD："
 
-#: templates/partials/online.php:15 templates/partials/offline.php:9
+#: templates/partials/online.php:16 templates/partials/offline.php:9
 msgid "Status: "
 msgstr "狀態："
 
-#: templates/partials/online.php:15
+#: templates/partials/online.php:16
 msgid "Online"
 msgstr "上線"
 
-#: templates/partials/online.php:19 templates/partials/offline.php:13
+#: templates/partials/online.php:21 templates/partials/offline.php:14
 msgid "Host: "
 msgstr "伺服器 IP："
 
-#: templates/partials/online.php:24 templates/partials/online.php:26
+#: templates/partials/online.php:27 templates/partials/online.php:29
 msgid "Server platform: "
 msgstr "伺服器平台："
 
-#: templates/partials/online.php:26 templates/partials/online.php:62
-#: templates/partials/online.php:92
+#: templates/partials/online.php:29 templates/partials/online.php:70
+#: templates/partials/online.php:101
 msgid "Ping request cannot get data."
 msgstr "Ping 請求無法取得資料。"
 
-#: templates/partials/online.php:31
+#: templates/partials/online.php:35
 msgid "Server software: "
 msgstr "伺服器軟體："
 
-#: templates/partials/online.php:35
+#: templates/partials/online.php:40
 msgid "Game version: "
 msgstr "遊戲版本："
 
-#: templates/partials/online.php:39 templates/partials/offline.php:17
+#: templates/partials/online.php:45 templates/partials/offline.php:19
 msgid "Website"
 msgstr "網站"
 
-#: templates/partials/online.php:48 templates/partials/online.php:50
+#: templates/partials/online.php:56 templates/partials/online.php:58
 msgid "Plugins: "
 msgstr "插件："
 
-#: templates/partials/online.php:48
+#: templates/partials/online.php:56
 msgid "Plugins list"
 msgstr "插件列表"
 
-#: templates/partials/online.php:50
+#: templates/partials/online.php:58
 msgid "Not found."
 msgstr "未找到。"
 
-#: templates/partials/online.php:68 templates/partials/online.php:70
+#: templates/partials/online.php:77 templates/partials/online.php:79
 msgid "Players: "
 msgstr "玩家："
 
-#: templates/partials/online.php:68
+#: templates/partials/online.php:77
 msgid "Players list"
 msgstr "玩家名單"
 
-#: templates/partials/online.php:98 templates/partials/offline.php:22
+#: templates/partials/online.php:107 templates/partials/offline.php:24
 msgid "Download this plugin: "
 msgstr "下載本插件："
 
-#: templates/partials/online.php:98 templates/partials/offline.php:22
+#: templates/partials/online.php:107 templates/partials/offline.php:24
 msgid "Server Status For Minecraft PC & PE"
 msgstr "伺服器狀態 For Minecraft PC & PE"
 
-#: templates/partials/online.php:99 templates/partials/offline.php:23
+#: templates/partials/online.php:108 templates/partials/offline.php:25
 msgid "Donate this plugin: "
 msgstr "贊助本插件："
 
-#: templates/partials/online.php:99 templates/partials/offline.php:23
+#: templates/partials/online.php:108 templates/partials/offline.php:25
 msgid "O'Pay"
 msgstr "歐付寶"
 
-#: templates/partials/online.php:99 templates/partials/offline.php:23
+#: templates/partials/online.php:108 templates/partials/offline.php:25
 msgid "PayPal"
 msgstr "PayPal"
 
