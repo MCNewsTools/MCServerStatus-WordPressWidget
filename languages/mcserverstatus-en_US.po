@@ -1,248 +1,302 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mcserverstatus\n"
-"POT-Creation-Date: 2017-08-13 14:05+0800\n"
-"PO-Revision-Date: 2017-08-13 14:05+0800\n"
+"POT-Creation-Date: 2018-06-29 10:32+0000\n"
+"PO-Revision-Date: 2018-06-29 18:37+0800\n"
 "Last-Translator: 科技玩客 TechPlayer\n"
-"Language-Team: 科技玩客 TechPlayer, LLC. <team@techplayer.org>\n"
+"Language-Team: 旋風之音 GoneTone <https://blog.reh.tw>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.8\n"
 "X-Poedit-KeywordsList: __;_e;gettext;gettext_noop;esc_html__\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: templates/form.phtml:6
+#: widget.php:27 libs/Widgetize.php:11
+msgid "Minecraft Server Status"
+msgstr "Minecraft Server Status"
+
+#: libs/Widgetize.php:13
+msgid "Show Minecraft server data, common for Java and Bedrock editions."
+msgstr "Show Minecraft server data, common for Java and Bedrock editions."
+
+#: templates/form.php:6
 msgid "Precautions"
 msgstr "Precautions"
 
-#: templates/form.phtml:13
+#: templates/form.php:13
 msgid ""
-"This method uses GameSpy4 protocol, and requires enabling query listener in "
+"This method use GameSpy4 protocol, and requires enabling query listener in "
 "your server.properties like this:"
 msgstr ""
-"This method uses GameSpy4 protocol, and requires enabling query listener in "
+"This method use GameSpy4 protocol, and requires enabling query listener in "
 "your server.properties like this:"
 
-#: templates/form.phtml:28
+#: templates/form.php:16
+#, php-format
+msgid ""
+"Enabled query listener, can't get server data, it may be that your website "
+"hosting provider doesn't allow requests, you can try setting query port to "
+"25565 (%s) in %s file and then testing it."
+msgstr ""
+"Enabled query listener, can't get server data, it may be that your website "
+"hosting provider doesn't allow requests, you can try setting query port to "
+"25565 (%s) in %s file and then testing it."
+
+#: templates/form.php:17
+msgid "If you still can't, please contact your website hosting provider."
+msgstr "If you still can't, please contact your website hosting provider."
+
+#: templates/form.php:25
+msgid "If query listener cannot be used, it automatically switches to ping."
+msgstr "If query listener cannot be used, it automatically switches to ping."
+
+#: templates/form.php:38
 msgid "General options"
 msgstr "General options"
 
-#: templates/form.phtml:34
+#: templates/form.php:44
 msgid "Title"
 msgstr "Title"
 
-#: templates/form.phtml:40 templates/partials/offline.phtml:11
-#: templates/partials/online.phtml:15
+#: templates/form.php:50
 msgid "Host"
 msgstr "Host"
 
-#: templates/form.phtml:46
-msgid "Port"
-msgstr "Port"
+#: templates/form.php:56
+msgid "Server Port"
+msgstr "Server Port"
 
-#: templates/form.phtml:52
+#: templates/form.php:62
+msgid "Query Port"
+msgstr "Query Port"
+
+#: templates/form.php:68
 msgid "Player Avatar size"
 msgstr "Player Avatar size"
 
-#: templates/form.phtml:58
+#: templates/form.php:74
 msgid "Web Site"
 msgstr "Web Site"
 
-#: templates/form.phtml:64 templates/partials/online.phtml:35
+#: templates/form.php:80 templates/partials/online.php:43
 msgid "DynMap"
 msgstr "DynMap"
 
-#: templates/form.phtml:79
+#: templates/form.php:95
 msgid "Display options"
 msgstr "Display options"
 
-#: templates/form.phtml:85
+#: templates/form.php:101
 msgid "Show Server MOTD"
 msgstr "Show Server MOTD"
 
-#: templates/form.phtml:91
+#: templates/form.php:107
 msgid "Show status"
 msgstr "Show status"
 
-#: templates/form.phtml:97
+#: templates/form.php:113
 msgid "Show host"
 msgstr "Show host"
 
-#: templates/form.phtml:103
+#: templates/form.php:119
 msgid "Show port"
 msgstr "Show port"
 
-#: templates/form.phtml:109
+#: templates/form.php:125
 msgid "Show server platform"
 msgstr "Show server platform"
 
-#: templates/form.phtml:115
+#: templates/form.php:131
 msgid "Show server software"
 msgstr "Show server software"
 
-#: templates/form.phtml:121
+#: templates/form.php:137
 msgid "Show game version"
 msgstr "Show game version"
 
-#: templates/form.phtml:127
+#: templates/form.php:143
 msgid "Show plugins"
 msgstr "Show plugins"
 
-#: templates/form.phtml:136
+#: templates/form.php:152
 msgid "Show players"
 msgstr "Show players"
 
-#: templates/form.phtml:142
+#: templates/form.php:158
 msgid "Show players avatar"
 msgstr "Show players avatar"
 
-#: templates/form.phtml:142
+#: templates/form.php:158
 msgid "MCPE will show Steve avatar"
 msgstr "MCPE will show Steve avatar"
 
-#: templates/form.phtml:148
+#: templates/form.php:164
 msgid "Show player list automatically"
 msgstr "Show player list automatically"
 
-#: templates/form.phtml:163
+#: templates/form.php:179
 msgid "Advanced options"
 msgstr "Advanced options"
 
-#: templates/form.phtml:169
+#: templates/form.php:185
 msgid "Auto update status"
 msgstr "Auto update status"
 
-#: templates/form.phtml:175
+#: templates/form.php:191
 msgid "Set seconds"
 msgstr "Set seconds"
 
-#: templates/form.phtml:175
+#: templates/form.php:191
 msgid "The minimum can be set to 5 second"
 msgstr "The minimum can be set to 5 second"
 
-#: templates/form.phtml:190
+#: templates/form.php:206
 msgid "About"
 msgstr "About"
 
-#: templates/form.phtml:197
-msgid "Author Facebook:"
-msgstr "Author Facebook:"
+#: templates/form.php:213
+msgid "Developer Website: "
+msgstr "Developer Website: "
 
-#: templates/form.phtml:198
-msgid "Author Twitter:"
-msgstr "Author Twitter:"
+#: templates/form.php:214
+msgid "Developer Facebook: "
+msgstr "Developer Facebook: "
 
-#: templates/form.phtml:199
-msgid "Author GitHub:"
-msgstr "Author GitHub:"
+#: templates/form.php:215
+msgid "Developer Twitter: "
+msgstr "Developer Twitter: "
 
-#: templates/form.phtml:200
-msgid "Plugin GitHub:"
-msgstr "Plugin GitHub:"
+#: templates/form.php:216
+msgid "Developer GitHub: "
+msgstr "Developer GitHub: "
 
-#: templates/form.phtml:207
+#: templates/form.php:217
+msgid "Plugin GitHub: "
+msgstr "Plugin GitHub: "
+
+#: templates/form.php:224
 msgid "Donate:"
 msgstr "Donate:"
 
-#: templates/form.phtml:210
+#: templates/form.php:227
 msgid "Your Donate is our motivation!"
 msgstr "Your Donate is our motivation!"
 
-#: templates/form.phtml:219
+#: templates/form.php:236
 msgid "Show donate info"
 msgstr "Show donate info"
 
-#: templates/form.phtml:219
+#: templates/form.php:236
 msgid ""
 "This option does not force checked, check it and we will be grateful that you"
 msgstr ""
 "This option does not force checked, check it and we will be grateful that you"
 
-#: templates/partials/offline.phtml:7 templates/partials/online.phtml:11
-msgid "Status"
-msgstr "Status"
+#: templates/partials/online.php:11
+msgid "Server MOTD: "
+msgstr "Server MOTD: "
 
-#: templates/partials/offline.phtml:7
-msgid "Offline"
-msgstr "Offline"
+#: templates/partials/online.php:15 templates/partials/offline.php:9
+msgid "Status: "
+msgstr "Status: "
 
-#: templates/partials/offline.phtml:15 templates/partials/online.phtml:31
-msgid "Website"
-msgstr "Website"
-
-#: templates/partials/offline.phtml:19 templates/partials/online.phtml:90
-msgid "Download this plugin:"
-msgstr "Download this plugin:"
-
-#: templates/partials/offline.phtml:19 templates/partials/online.phtml:90
-msgid "Server Status For Minecraft PC & PE"
-msgstr "Server Status For Minecraft PC & PE"
-
-#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
-msgid "Donate this plugin:"
-msgstr "Donate this plugin:"
-
-#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
-msgid "allPay"
-msgstr "allPay"
-
-#: templates/partials/offline.phtml:20 templates/partials/online.phtml:91
-msgid "PayPal"
-msgstr "PayPal"
-
-#: templates/partials/online.phtml:7
-msgid "Server MOTD"
-msgstr "Server MOTD"
-
-#: templates/partials/online.phtml:11
+#: templates/partials/online.php:15
 msgid "Online"
 msgstr "Online"
 
-#: templates/partials/online.phtml:19
-msgid "Server platform"
-msgstr "Server platform"
+#: templates/partials/online.php:19 templates/partials/offline.php:13
+msgid "Host: "
+msgstr "Host: "
 
-#: templates/partials/online.phtml:23
-msgid "Server software"
-msgstr "Server software"
+#: templates/partials/online.php:24 templates/partials/online.php:26
+msgid "Server platform: "
+msgstr "Server platform: "
 
-#: templates/partials/online.phtml:27
-msgid "Game version"
-msgstr "Game version"
+#: templates/partials/online.php:26 templates/partials/online.php:62
+#: templates/partials/online.php:92
+msgid "Ping request cannot get data."
+msgstr "Ping request cannot get data."
 
-#: templates/partials/online.phtml:40
-msgid "Plugins"
-msgstr "Plugins"
+#: templates/partials/online.php:31
+msgid "Server software: "
+msgstr "Server software: "
 
-#: templates/partials/online.phtml:41
+#: templates/partials/online.php:35
+msgid "Game version: "
+msgstr "Game version: "
+
+#: templates/partials/online.php:39 templates/partials/offline.php:17
+msgid "Website"
+msgstr "Website"
+
+#: templates/partials/online.php:48 templates/partials/online.php:50
+msgid "Plugins: "
+msgstr "Plugins: "
+
+#: templates/partials/online.php:48
 msgid "Plugins list"
 msgstr "Plugins list"
 
-#: templates/partials/online.phtml:43
-msgid "Plugins: <strong>Not found</strong>"
-msgstr "Plugins: <strong>Not found</strong>"
+#: templates/partials/online.php:50
+msgid "Not found."
+msgstr "Not found."
 
-#: templates/partials/online.phtml:56 templates/partials/online.phtml:60
-msgid "Players"
-msgstr "Players"
+#: templates/partials/online.php:68 templates/partials/online.php:70
+msgid "Players: "
+msgstr "Players: "
 
-#: templates/partials/online.phtml:57
+#: templates/partials/online.php:68
 msgid "Players list"
 msgstr "Players list"
 
-#~ msgid "Server Status For Minecraft PC & PE (MCServerStatus)"
-#~ msgstr "Server Status For Minecraft PC & PE (MCServerStatus)"
+#: templates/partials/online.php:98 templates/partials/offline.php:22
+msgid "Download this plugin: "
+msgstr "Download this plugin: "
 
-#~ msgid ""
-#~ "Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft "
-#~ "PC & PE server data."
-#~ msgstr ""
-#~ "Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft "
-#~ "PC & PE server data."
+#: templates/partials/online.php:98 templates/partials/offline.php:22
+msgid "Server Status For Minecraft PC & PE"
+msgstr "Server Status For Minecraft PC & PE"
+
+#: templates/partials/online.php:99 templates/partials/offline.php:23
+msgid "Donate this plugin: "
+msgstr "Donate this plugin: "
+
+#: templates/partials/online.php:99 templates/partials/offline.php:23
+msgid "O'Pay"
+msgstr "O'Pay"
+
+#: templates/partials/online.php:99 templates/partials/offline.php:23
+msgid "PayPal"
+msgstr "PayPal"
+
+#: templates/partials/offline.php:9
+msgid "Offline"
+msgstr "Offline"
+
+#. Name of the plugin
+msgid "Server Status For Minecraft PC & PE (MCServerStatus)"
+msgstr "Server Status For Minecraft PC & PE (MCServerStatus)"
+
+#. Description of the plugin
+msgid ""
+"Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft "
+"Java and Bedrock editions server data."
+msgstr ""
+"Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft "
+"Java and Bedrock editions server data."
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "allPay"
+#~ msgstr "allPay"
+
+#~ msgid "Plugins: <strong>Not found</strong>"
+#~ msgstr "Plugins: <strong>Not found</strong>"
 
 #~ msgid "Minecraft PC & PE Server Status (MCServerStatus)"
 #~ msgstr "Minecraft PC & PE Server Status (MCServerStatus)"
@@ -253,9 +307,6 @@ msgstr "Players list"
 #~ msgstr ""
 #~ "Minecraft PC & PE Server Status is a WordPress Widget, show Minecraft PC "
 #~ "& PE server data."
-
-#~ msgid "Minecraft PC & PE Server Status"
-#~ msgstr "Minecraft PC & PE Server Status"
 
 #~ msgid "1000 = 1 second, the minimum can be set to 5000"
 #~ msgstr "1000 = 1 second, the minimum can be set to 5000"

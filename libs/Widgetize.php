@@ -1,15 +1,18 @@
 <?php
-
-class Widgetize extends WP_Widget
-{
+class Widgetize extends WP_Widget {
     /**
      * @var array|null
      */
     private $defaults;
 
-    public function __construct($name, $defaults = null)
-    {
-        parent::__construct(strtolower($name), $name);
+    public function __construct($name, $defaults = null) {
+        parent::__construct(
+            strtolower($name),
+            esc_html__('Minecraft Server Status', 'mcserverstatus'),
+            array(
+                'description' => esc_html__('Show Minecraft server data, common for Java and Bedrock editions.', 'mcserverstatus')
+            )
+        );
 
         $this->defaults = $defaults;
     }
@@ -18,8 +21,7 @@ class Widgetize extends WP_Widget
      * Add widget as action to the wordpress core
      * @param string $class
      */
-    public static function add($class)
-    {
+    public static function add($class) {
         add_action('widgets_init', create_function('', 'return register_widget("' . $class . '");'));
     }
 
@@ -28,8 +30,7 @@ class Widgetize extends WP_Widget
      * @param array $instance
      * @return array|null
      */
-    protected function hydrate(array $instance)
-    {
+    protected function hydrate(array $instance) {
         if (empty($instance)) {
             return $this->defaults;
         }
@@ -40,9 +41,7 @@ class Widgetize extends WP_Widget
      * Get the default parameters
      * @return array|null
      */
-    public function getDefaults()
-    {
+    public function getDefaults() {
         return $this->defaults;
     }
-
 }
