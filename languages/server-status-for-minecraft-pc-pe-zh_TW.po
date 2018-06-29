@@ -1,38 +1,37 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mcserverstatus\n"
-"POT-Creation-Date: 2018-06-29 13:55+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2018-06-29 15:22+0000\n"
+"PO-Revision-Date: 2018-06-29 23:23+0800\n"
 "Last-Translator: 科技玩客 TechPlayer\n"
 "Language-Team: 旋風之音 GoneTone <https://blog.reh.tw>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
+"X-Generator: Poedit 2.0.8\n"
 "X-Poedit-KeywordsList: __;_e;gettext;gettext_noop;esc_html__\n"
 "X-Poedit-Basepath: ..\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SearchPath-0: .\n"
-"Language: "
 
-#: widget.php:27 libs/Widgetize.php:11
+#: widget.php:26 libs/Widgetize.php:11
 msgid "Minecraft Server Status"
-msgstr ""
+msgstr "Minecraft 伺服器狀態"
 
 #: libs/Widgetize.php:13
 msgid "Show Minecraft server data, common for Java and Bedrock editions."
-msgstr ""
+msgstr "顯示 Minecraft 伺服器資訊，Java 和 Bedrock 版通用。"
 
 #: templates/form.php:6
 msgid "Precautions"
-msgstr ""
+msgstr "注意事項"
 
 #: templates/form.php:13
 msgid ""
 "This method use GameSpy4 protocol, and requires enabling query listener in "
 "your server.properties like this:"
-msgstr ""
+msgstr "本方法使用 GameSpy4 協議，需要在 server.properties 啟用查詢偵聽器："
 
 #: templates/form.php:16
 #, php-format
@@ -41,243 +40,293 @@ msgid ""
 "hosting provider doesn't allow requests, you can try setting query port to "
 "25565 (%s) in %s file and then testing it."
 msgstr ""
+"啟用了查詢偵聽器，無法取得伺服器資料，可能是您的網站託管主機商不允許請求，您"
+"可以嘗試在 %s 文件設定查詢端口為 25565 (%s) 然後進行測試。"
 
 #: templates/form.php:17
 msgid "If you still can't, please contact your website hosting provider."
-msgstr ""
+msgstr "如果還是不行，請聯絡您的網站託管主機商。"
 
 #: templates/form.php:25
 msgid "If query listener cannot be used, it automatically switches to ping."
-msgstr ""
+msgstr "如果無法使用查詢偵聽器，會自動切換為 ping。"
 
 #: templates/form.php:38
 msgid "General options"
-msgstr ""
+msgstr "一般選項"
 
 #: templates/form.php:44
 msgid "Title"
-msgstr ""
+msgstr "標題"
 
 #: templates/form.php:50
 msgid "Host"
-msgstr ""
+msgstr "伺服器 IP"
 
 #: templates/form.php:56
 msgid "Server Port"
-msgstr ""
+msgstr "伺服器端口"
 
 #: templates/form.php:62
 msgid "Query Port"
-msgstr ""
+msgstr "查詢 (Query) 端口"
 
 #: templates/form.php:68
 msgid "Player Avatar size"
-msgstr ""
+msgstr "玩家頭像大小"
 
 #: templates/form.php:74
 msgid "Web Site"
-msgstr ""
+msgstr "網站"
 
 #: templates/form.php:80 templates/partials/online.php:50
 msgid "DynMap"
-msgstr ""
+msgstr "DynMap"
 
 #: templates/form.php:95
 msgid "Display options"
-msgstr ""
+msgstr "顯示選項"
 
 #: templates/form.php:101
 msgid "Show Server MOTD"
-msgstr ""
+msgstr "顯示伺服器 MOTD"
 
 #: templates/form.php:107
 msgid "Show status"
-msgstr ""
+msgstr "顯示狀態"
 
 #: templates/form.php:113
 msgid "Show host"
-msgstr ""
+msgstr "顯示伺服器 IP"
 
 #: templates/form.php:119
 msgid "Show port"
-msgstr ""
+msgstr "顯示端口"
 
 #: templates/form.php:125
 msgid "Show server platform"
-msgstr ""
+msgstr "顯示伺服器平台"
 
 #: templates/form.php:131
 msgid "Show server software"
-msgstr ""
+msgstr "顯示伺服器軟體"
 
 #: templates/form.php:137
 msgid "Show game version"
-msgstr ""
+msgstr "顯示遊戲版本"
 
 #: templates/form.php:143
 msgid "Show plugins"
-msgstr ""
+msgstr "顯示插件"
 
 #: templates/form.php:152
 msgid "Show players"
-msgstr ""
+msgstr "顯示玩家"
 
 #: templates/form.php:158
 msgid "Show players avatar"
-msgstr ""
+msgstr "顯示玩家頭像"
 
 #: templates/form.php:158
 msgid "MCPE will show Steve avatar"
-msgstr ""
+msgstr "MCPE 將顯示 Steve 頭像"
 
 #: templates/form.php:164
 msgid "Show player list automatically"
-msgstr ""
+msgstr "自動顯示玩家名單"
 
 #: templates/form.php:179
 msgid "Advanced options"
-msgstr ""
+msgstr "進階選項"
 
 #: templates/form.php:185
 msgid "Auto update status"
-msgstr ""
+msgstr "自動更新狀態"
 
 #: templates/form.php:191
 msgid "Set seconds"
-msgstr ""
+msgstr "設定秒數"
 
 #: templates/form.php:191
 msgid "The minimum can be set to 5 second"
-msgstr ""
+msgstr "最小可設定為 5 秒"
 
 #: templates/form.php:206
 msgid "About"
-msgstr ""
+msgstr "關於"
 
 #: templates/form.php:213
 msgid "Developer Website: "
-msgstr ""
+msgstr "開發者網站："
 
 #: templates/form.php:214
 msgid "Developer Facebook: "
-msgstr ""
+msgstr "開發者 Facebook："
 
 #: templates/form.php:215
 msgid "Developer Twitter: "
-msgstr ""
+msgstr "開發者 Twitter："
 
 #: templates/form.php:216
 msgid "Developer GitHub: "
-msgstr ""
+msgstr "開發者 GitHub："
 
 #: templates/form.php:217
 msgid "Plugin GitHub: "
-msgstr ""
+msgstr "插件 GitHub："
 
 #: templates/form.php:224
 msgid "Donate:"
-msgstr ""
+msgstr "贊助："
 
 #: templates/form.php:227
 msgid "Your Donate is our motivation!"
-msgstr ""
+msgstr "您的贊助是我們的動力！"
 
 #: templates/form.php:236
 msgid "Show donate info"
-msgstr ""
+msgstr "顯示贊助資訊"
 
 #: templates/form.php:236
 msgid ""
 "This option does not force checked, check it and we will be grateful that you"
-msgstr ""
+msgstr "此選項並不強迫勾選，勾選它我們會很感謝您"
 
 #: templates/partials/online.php:11
 msgid "Server MOTD: "
-msgstr ""
+msgstr "伺服器 MOTD："
 
 #: templates/partials/online.php:16 templates/partials/offline.php:9
 msgid "Status: "
-msgstr ""
+msgstr "狀態："
 
 #: templates/partials/online.php:16
 msgid "Online"
-msgstr ""
+msgstr "在線"
 
 #: templates/partials/online.php:21 templates/partials/offline.php:14
 msgid "Host: "
-msgstr ""
+msgstr "伺服器 IP："
 
 #: templates/partials/online.php:27 templates/partials/online.php:29
 msgid "Server platform: "
-msgstr ""
+msgstr "伺服器平台："
 
-#: templates/partials/online.php:29 templates/partials/online.php:70 
+#: templates/partials/online.php:29 templates/partials/online.php:70
 #: templates/partials/online.php:101
 msgid "Ping request cannot get data."
-msgstr ""
+msgstr "Ping 請求無法取得資料。"
 
 #: templates/partials/online.php:35
 msgid "Server software: "
-msgstr ""
+msgstr "伺服器軟體："
 
 #: templates/partials/online.php:40
 msgid "Game version: "
-msgstr ""
+msgstr "遊戲版本："
 
 #: templates/partials/online.php:45 templates/partials/offline.php:19
 msgid "Website"
-msgstr ""
+msgstr "網站"
 
 #: templates/partials/online.php:56 templates/partials/online.php:58
 msgid "Plugins: "
-msgstr ""
+msgstr "插件："
 
 #: templates/partials/online.php:56
 msgid "Plugins list"
-msgstr ""
+msgstr "插件列表"
 
 #: templates/partials/online.php:58
 msgid "Not found."
-msgstr ""
+msgstr "未找到。"
 
 #: templates/partials/online.php:77 templates/partials/online.php:79
 msgid "Players: "
-msgstr ""
+msgstr "玩家："
 
 #: templates/partials/online.php:77
 msgid "Players list"
-msgstr ""
+msgstr "玩家名單"
 
 #: templates/partials/online.php:107 templates/partials/offline.php:24
 msgid "Download this plugin: "
-msgstr ""
+msgstr "下載本插件："
 
 #: templates/partials/online.php:107 templates/partials/offline.php:24
 msgid "Server Status For Minecraft PC & PE"
-msgstr ""
+msgstr "伺服器狀態 For Minecraft PC & PE"
 
 #: templates/partials/online.php:108 templates/partials/offline.php:25
 msgid "Donate this plugin: "
-msgstr ""
+msgstr "贊助本插件："
 
 #: templates/partials/online.php:108 templates/partials/offline.php:25
 msgid "O'Pay"
-msgstr ""
+msgstr "歐付寶"
 
 #: templates/partials/online.php:108 templates/partials/offline.php:25
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: templates/partials/offline.php:9
 msgid "Offline"
-msgstr ""
+msgstr "離線"
 
 #. Name of the plugin
 msgid "Server Status For Minecraft PC & PE (MCServerStatus)"
-msgstr ""
+msgstr "伺服器狀態 For Minecraft PC & PE (MCServerStatus)"
 
 #. Description of the plugin
 msgid ""
 "Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft "
 "Java and Bedrock editions server data."
 msgstr ""
+"伺服器狀態 For Minecraft PC & PE 是一個 WordPress 小工具，顯示 Minecraft "
+"Java 和 Bedrock 版伺服器資訊。"
+
+#~ msgid "allPay"
+#~ msgstr "歐付寶"
+
+#~ msgid "Port"
+#~ msgstr "端口"
+
+#~ msgid "Plugins: <strong>Not found</strong>"
+#~ msgstr "插件: <strong>未找到</strong>"
+
+#~ msgid "Minecraft PC & PE Server Status (MCServerStatus)"
+#~ msgstr "Minecraft PC & PE 伺服器狀態 (MCServerStatus)"
+
+#~ msgid ""
+#~ "Minecraft PC & PE Server Status is a WordPress Widget, show Minecraft PC "
+#~ "& PE server data."
+#~ msgstr ""
+#~ "Minecraft PC & PE 伺服器狀態是一個 WordPress 小工具，顯示 Minecraft PC & "
+#~ "PE 伺服器資訊。"
+
+#~ msgid "Minecraft PC & PE Server Status"
+#~ msgstr "Minecraft PC & PE 伺服器狀態"
+
+#~ msgid "1000 = 1 second, the minimum can be set to 5000"
+#~ msgstr "1000 = 1秒，最小可設定為 5000"
+
+#~ msgid "Please select"
+#~ msgstr "請選擇"
+
+#~ msgid "Show ping"
+#~ msgstr "顯示ping"
+
+#~ msgid "Show player count"
+#~ msgstr "顯示玩家數量"
+
+#~ msgid "Avatar size"
+#~ msgstr "頭像大小"
+
+#~ msgid "Version"
+#~ msgstr "版本"
+
+#~ msgid "Show version"
+#~ msgstr "顯示版本"
+
+#~ msgid "Player Head size"
+#~ msgstr "玩家頭像大小"

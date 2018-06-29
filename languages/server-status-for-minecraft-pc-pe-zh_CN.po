@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mcserverstatus\n"
-"POT-Creation-Date: 2018-06-29 13:55+0000\n"
-"PO-Revision-Date: 2018-06-29 21:55+0800\n"
+"POT-Creation-Date: 2018-06-29 15:22+0000\n"
+"PO-Revision-Date: 2018-06-29 23:23+0800\n"
 "Last-Translator: 科技玩客 TechPlayer\n"
 "Language-Team: 旋風之音 GoneTone <https://blog.reh.tw>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: widget.php:27 libs/Widgetize.php:11
+#: widget.php:26 libs/Widgetize.php:11
 msgid "Minecraft Server Status"
 msgstr "Minecraft 服务器状态"
 
@@ -202,7 +202,7 @@ msgstr "状态："
 
 #: templates/partials/online.php:16
 msgid "Online"
-msgstr "上线"
+msgstr "在线"
 
 #: templates/partials/online.php:21 templates/partials/offline.php:14
 msgid "Host: "

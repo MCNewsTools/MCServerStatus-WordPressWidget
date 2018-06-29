@@ -8,9 +8,9 @@ class Widgetize extends WP_Widget {
     public function __construct($name, $defaults = null) {
         parent::__construct(
             strtolower($name),
-            esc_html__('Minecraft Server Status', 'mcserverstatus'),
+            esc_html__('Minecraft Server Status', 'server-status-for-minecraft-pc-pe'),
             array(
-                'description' => esc_html__('Show Minecraft server data, common for Java and Bedrock editions.', 'mcserverstatus')
+                'description' => esc_html__('Show Minecraft server data, common for Java and Bedrock editions.', 'server-status-for-minecraft-pc-pe')
             )
         );
 

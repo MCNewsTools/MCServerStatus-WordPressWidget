@@ -8,54 +8,54 @@ echo $args['before_title'] . $instance['title'] . $args['after_title']; ?>
 		<?php
         $cleanHostName = str_replace(array("§k", "§l", "§m", "§n", "§o", "§r", "§1", "§2", "§3", "§4", "§5", "§6", "§7", "§8", "§9", "§a", "§b", "§c", "§d", "§e", "§f"), "", $server['server']['server_motd']);
 		?>
-        <?php echo esc_html__('Server MOTD: ', 'mcserverstatus'); ?><strong><span style="color:green;font-weight:bold"><refresh class="motd"><?php echo $cleanHostName; ?></refresh></span></strong>
+        <?php echo esc_html__('Server MOTD: ', 'server-status-for-minecraft-pc-pe'); ?><strong><span style="color:green;font-weight:bold"><refresh class="motd"><?php echo $cleanHostName; ?></refresh></span></strong>
     <?php endif; ?>
 
 	<?php if (isset($instance['show_status']) && $instance['show_status'] == 'on') : ?>
         <br>
-		<?php echo esc_html__('Status: ', 'mcserverstatus'); ?><strong><span style="color:green;font-weight:bold"><?php echo esc_html__('Online', 'mcserverstatus'); ?></span></strong>
+		<?php echo esc_html__('Status: ', 'server-status-for-minecraft-pc-pe'); ?><strong><span style="color:green;font-weight:bold"><?php echo esc_html__('Online', 'server-status-for-minecraft-pc-pe'); ?></span></strong>
 	<?php endif; ?>
 
     <?php if (isset($instance['show_host']) && $instance['show_host'] == 'on') : ?>
         <br>
-        <?php echo esc_html__('Host: ', 'mcserverstatus'); ?><strong><font color="#008000"><?php echo $server['server']['host']; ?></font><?php if (isset($instance['show_port']) && $instance['show_port'] == 'on'): ?><?php echo ':<font color="#ff0000">' . $server['server']['port'] . '</font>'; ?><?php endif; ?></strong>
+        <?php echo esc_html__('Host: ', 'server-status-for-minecraft-pc-pe'); ?><strong><font color="#008000"><?php echo $server['server']['host']; ?></font><?php if (isset($instance['show_port']) && $instance['show_port'] == 'on'): ?><?php echo ':<font color="#ff0000">' . $server['server']['port'] . '</font>'; ?><?php endif; ?></strong>
     <?php endif; ?>
 
 	<?php if (isset($instance['show_server_platform']) && $instance['show_server_platform']) : ?>
         <br>
         <?php if ($server['server']['server_platform'] != "ping") : ?>
-            <?php echo esc_html__('Server platform: ', 'mcserverstatus'); ?><strong><font color="#008000"><?php echo $server['server']['server_platform']; ?></font></strong>
+            <?php echo esc_html__('Server platform: ', 'server-status-for-minecraft-pc-pe'); ?><strong><font color="#008000"><?php echo $server['server']['server_platform']; ?></font></strong>
         <?php else : ?>
-            <?php echo esc_html__('Server platform: ', 'mcserverstatus'); ?><strong><font color="#ff0000"><?php echo esc_html__('Ping request cannot get data.', 'mcserverstatus'); ?></font></strong>
+            <?php echo esc_html__('Server platform: ', 'server-status-for-minecraft-pc-pe'); ?><strong><font color="#ff0000"><?php echo esc_html__('Ping request cannot get data.', 'server-status-for-minecraft-pc-pe'); ?></font></strong>
         <?php endif; ?>
     <?php endif; ?>
 
     <?php if (isset($instance['show_server_software']) && $instance['show_server_software']) : ?>
         <br>
-        <?php echo esc_html__('Server software: ', 'mcserverstatus'); ?><strong><font color="#008000"><?php echo $server['server']['version']['software']; ?></font></strong>
+        <?php echo esc_html__('Server software: ', 'server-status-for-minecraft-pc-pe'); ?><strong><font color="#008000"><?php echo $server['server']['version']['software']; ?></font></strong>
     <?php endif; ?>
 
 	<?php if (isset($instance['show_game_version']) && $instance['show_game_version']) : ?>
         <br>
-        <?php echo esc_html__('Game version: ', 'mcserverstatus'); ?><strong><font color="#008000"><?php echo $server['server']['version']['version']; ?></font></strong>
+        <?php echo esc_html__('Game version: ', 'server-status-for-minecraft-pc-pe'); ?><strong><font color="#008000"><?php echo $server['server']['version']['version']; ?></font></strong>
     <?php endif; ?>
 
     <?php if (isset($instance['website']) && $instance['website']) : ?>
         <br>
-        <a href="<?php echo $instance['website']; ?>" target="_blank"><?php echo esc_html__('Website', 'mcserverstatus'); ?></a>
+        <a href="<?php echo $instance['website']; ?>" target="_blank"><?php echo esc_html__('Website', 'server-status-for-minecraft-pc-pe'); ?></a>
     <?php endif; ?>
 
     <?php if (isset($instance['dynmap']) && $instance['dynmap']) : ?>
         <br>
-        <a href="<?php echo $instance['dynmap']; ?>" target="_blank"><?php echo esc_html__('DynMap', 'mcserverstatus'); ?></a>
+        <a href="<?php echo $instance['dynmap']; ?>" target="_blank"><?php echo esc_html__('DynMap', 'server-status-for-minecraft-pc-pe'); ?></a>
     <?php endif; ?>
 
     <?php if (isset($instance['show_plugins']) && $instance['show_plugins']) : ?>
         <br>
         <?php if (count($server['plugins']) > 0 || $server['plugins'] == "ping") : ?>
-            <?php echo esc_html__('Plugins: ', 'mcserverstatus'); ?><strong><?php echo count($server['plugins']); ?></strong> (<a href="javascript:toggleMcsList(<?php echo $randomPlugins; ?>);"><?php echo esc_html__('Plugins list', 'mcserverstatus'); ?></a>)
+            <?php echo esc_html__('Plugins: ', 'server-status-for-minecraft-pc-pe'); ?><strong><?php echo count($server['plugins']); ?></strong> (<a href="javascript:toggleMcsList(<?php echo $randomPlugins; ?>);"><?php echo esc_html__('Plugins list', 'server-status-for-minecraft-pc-pe'); ?></a>)
         <?php else : ?>
-            <?php echo esc_html__('Plugins: ', 'mcserverstatus'); ?><strong><?php echo esc_html__('Not found.', 'mcserverstatus'); ?></strong>
+            <?php echo esc_html__('Plugins: ', 'server-status-for-minecraft-pc-pe'); ?><strong><?php echo esc_html__('Not found.', 'server-status-for-minecraft-pc-pe'); ?></strong>
         <?php endif; ?>
     <?php endif; ?>
 
@@ -67,16 +67,16 @@ echo $args['before_title'] . $instance['title'] . $args['after_title']; ?>
         </span>
     <?php elseif ($server['plugins'] == "ping" && isset($instance['show_plugins']) && $instance['show_plugins']) : ?>
         <span id="mcs_list_<?php echo $randomPlugins; ?>" style="display:none">
-            <span>　- <font color="#ff0000"><?php echo esc_html__('Ping request cannot get data.', 'mcserverstatus'); ?></font></span>
+            <span>　- <font color="#ff0000"><?php echo esc_html__('Ping request cannot get data.', 'server-status-for-minecraft-pc-pe'); ?></font></span>
         </span>
     <?php endif; ?>
 
     <?php if (isset($instance['show_players']) && $instance['show_players']) : ?>
         <br>
         <?php if (count($server['players']) > 0 || $server['players'] == "ping") : ?>
-            <?php echo esc_html__('Players: ', 'mcserverstatus'); ?><strong><refresh class="players"><font color="#008000"><?php echo $server['server']['players_online']; ?></font>/<font color="#ff0000"><?php echo $server['server']['players_max']; ?></font></refresh></strong> (<a href="javascript:toggleMcsList(<?php echo $randomPlayerList; ?>);"><?php echo esc_html__('Players list', 'mcserverstatus'); ?></a>)
+            <?php echo esc_html__('Players: ', 'server-status-for-minecraft-pc-pe'); ?><strong><refresh class="players"><font color="#008000"><?php echo $server['server']['players_online']; ?></font>/<font color="#ff0000"><?php echo $server['server']['players_max']; ?></font></refresh></strong> (<a href="javascript:toggleMcsList(<?php echo $randomPlayerList; ?>);"><?php echo esc_html__('Players list', 'server-status-for-minecraft-pc-pe'); ?></a>)
         <?php else : ?>
-            <?php echo esc_html__('Players: ', 'mcserverstatus'); ?><strong><refresh class="players2"><font color="#008000"><?php echo $server['server']['players_online']; ?></font>/<font color="#ff0000"><?php echo $server['server']['players_max']; ?></font></refresh></strong>
+            <?php echo esc_html__('Players: ', 'server-status-for-minecraft-pc-pe'); ?><strong><refresh class="players2"><font color="#008000"><?php echo $server['server']['players_online']; ?></font>/<font color="#ff0000"><?php echo $server['server']['players_max']; ?></font></refresh></strong>
         <?php endif; ?>
     <?php endif; ?>
 
@@ -98,14 +98,14 @@ echo $args['before_title'] . $instance['title'] . $args['after_title']; ?>
         </span>
     <?php elseif ($server['players'] == "ping" && isset($instance['show_players']) && $instance['show_players']) : ?>
         <span id="mcs_list_<?php echo $randomPlayerList; ?>" style="margin-top:5px;<?php echo (isset($instance['show_auto_players']) && $instance['show_auto_players'] == 'on') ? 'display:block' : 'display:none'; ?> ">
-            <span>　- <font color="#ff0000"><?php echo esc_html__('Ping request cannot get data.', 'mcserverstatus'); ?></font></span>
+            <span>　- <font color="#ff0000"><?php echo esc_html__('Ping request cannot get data.', 'server-status-for-minecraft-pc-pe'); ?></font></span>
         </span>
     <?php endif; ?>
 
 	<?php if (isset($instance['show_donate_info']) && $instance['show_donate_info']) : ?>
         <br><br>
-		<font color="red"><?php echo esc_html__('Download this plugin: ', 'mcserverstatus'); ?></font><a href="https://wordpress.org/plugins/server-status-for-minecraft-pc-pe" target="_blank"><?php echo esc_html__('Server Status For Minecraft PC & PE', 'mcserverstatus'); ?></a><br>
-		<font color="red"><?php echo esc_html__('Donate this plugin: ', 'mcserverstatus'); ?></font><a href="https://qr.allpay.com.tw/ffSH4" target="_blank"><?php echo esc_html__("O'Pay", 'mcserverstatus'); ?></a> | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=42GN624D7ZLUN" target="_blank"><?php echo esc_html__('PayPal', 'mcserverstatus'); ?></a><br>
+		<font color="red"><?php echo esc_html__('Download this plugin: ', 'server-status-for-minecraft-pc-pe'); ?></font><a href="https://wordpress.org/plugins/server-status-for-minecraft-pc-pe" target="_blank"><?php echo esc_html__('Server Status For Minecraft PC & PE', 'server-status-for-minecraft-pc-pe'); ?></a><br>
+		<font color="red"><?php echo esc_html__('Donate this plugin: ', 'server-status-for-minecraft-pc-pe'); ?></font><a href="https://qr.allpay.com.tw/ffSH4" target="_blank"><?php echo esc_html__("O'Pay", 'server-status-for-minecraft-pc-pe'); ?></a> | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=42GN624D7ZLUN" target="_blank"><?php echo esc_html__('PayPal', 'server-status-for-minecraft-pc-pe'); ?></a><br>
 	<?php endif; ?>
 </p>
 

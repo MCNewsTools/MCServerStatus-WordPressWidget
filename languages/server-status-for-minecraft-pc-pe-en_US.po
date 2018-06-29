@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mcserverstatus\n"
-"POT-Creation-Date: 2018-06-29 13:55+0000\n"
-"PO-Revision-Date: 2018-06-29 21:56+0800\n"
+"POT-Creation-Date: 2018-06-29 15:22+0000\n"
+"PO-Revision-Date: 2018-06-29 23:24+0800\n"
 "Last-Translator: 科技玩客 TechPlayer\n"
 "Language-Team: 旋風之音 GoneTone <https://blog.reh.tw>\n"
 "Language: en_US\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: widget.php:27 libs/Widgetize.php:11
+#: widget.php:26 libs/Widgetize.php:11
 msgid "Minecraft Server Status"
 msgstr "Minecraft Server Status"
 

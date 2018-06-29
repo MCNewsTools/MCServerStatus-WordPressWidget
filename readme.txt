@@ -75,6 +75,10 @@ If you still can't, please contact your website hosting provider.
 Please close plugins with the same function, this plugin use `xPaw/PHP-Minecraft-Query`.
 
 == Changelog ==
+= 1.3.2 =
+* Update Text Domain.
+* Not updated from version 1.3.0, need to reset Widget.
+
 = 1.3.1 =
 * Update load_plugin_textdomain.
 * Not updated from version 1.3.0, need to reset Widget.
