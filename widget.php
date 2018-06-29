@@ -13,7 +13,7 @@
  * Domain Path: /languages
  */
 // load localization
-load_plugin_textdomain('mcserverstatus', false, basename(dirname( __FILE__ )) . '/languages/');
+load_plugin_textdomain('mcserverstatus', false, basename(dirname(__FILE__)) . '/languages');
 
 require dirname(__FILE__) . '/libs/Widgetize.php';
 require dirname(__FILE__) . '/libs/ApiClient.php';
