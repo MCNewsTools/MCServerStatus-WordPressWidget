@@ -4,8 +4,8 @@
  * Plugin URI: https://github.com/MCServerStatus/MCServerStatus-WordPressWidget
  * Description: Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft Java and Bedrock editions server data.
  * Version: 1.3.0
- * Author: 旋風之音 GoneTone
- * Author URI: https://www.facebook.com/TPGoneTone/
+ * Author: 張文相 Zhang Wenxiang
+ * Author URI: https://www.facebook.com/GoneToneDY/
  * Author email: p29022716@gmail.com
  * License: GPL 3
  * Donate URI: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=42GN624D7ZLUN

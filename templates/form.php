@@ -211,7 +211,7 @@
 	<tr>
 		<td>
             <?php echo esc_html__('Developer Website: ', 'mcserverstatus'); ?><a href="https://blog.reh.tw/" target="_blank">https://blog.reh.tw/</a><br>
-			<?php echo esc_html__('Developer Facebook: ', 'mcserverstatus'); ?><a href="https://www.facebook.com/TPGoneTone/" target="_blank">https://www.facebook.com/TPGoneTone/</a><br>
+			<?php echo esc_html__('Developer Facebook: ', 'mcserverstatus'); ?><a href="https://www.facebook.com/GoneToneDY/" target="_blank">https://www.facebook.com/GoneToneDY/</a><br>
 			<?php echo esc_html__('Developer Twitter: ', 'mcserverstatus'); ?><a href="https://twitter.com/TPGoneTone/" target="_blank">https://twitter.com/TPGoneTone/</a><br>
 			<?php echo esc_html__('Developer GitHub: ', 'mcserverstatus'); ?><a href="https://github.com/GoneTone/" target="_blank">https://github.com/GoneTone/</a><br><br>
 			<?php echo esc_html__('Plugin GitHub: ', 'mcserverstatus'); ?><a href="https://github.com/MCNewsTools/MCServerStatus-WordPressWidget" target="_blank">https://github.com/MCNewsTools/MCServerStatus-WordPressWidget</a>

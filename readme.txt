@@ -1,12 +1,12 @@
 === Server Status For Minecraft PC & PE (MCServerStatus) ===
 Contributors: GoneTone
-Donate link: https://qr.allpay.com.tw/ffSH4
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=42GN624D7ZLUN
 Tags: MCServerStatus, Status, Minecraft, Minecraft PE, Minecraft PC, Minecraft: Java Edition, Minecraft: Bedrock Edition, MCPE, MCBE, Minecraft Server Status, Minecraft PC & PE Server Status, Minecraft Server, MinecraftQuery, MinecraftPing, Query, Ping
 Requires at least: 3.5
 Tested up to: 4.9.6
 Stable tag: trunk
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft Java and Bedrock editions server data.
 
