@@ -24,7 +24,6 @@ class MCServerStatus_Widget extends Widgetize {
 
         parent::__construct('MCServerStatus', array(
             'title' => esc_html__('Minecraft Server Status', 'mcserverstatus'),
-            'description' => 'Test',
             'host' => '127.0.0.1',
             'server_port' => '25565',
             'query_port' => '25565',
