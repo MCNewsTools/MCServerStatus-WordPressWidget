@@ -22,8 +22,8 @@ class ApiClient {
      * @return array|mixed|null
      */
     public function queryCall() {
-        require dirname(__FILE__) . '/minecraft_query/MinecraftQuery.php';
-        require dirname(__FILE__) . '/minecraft_query/MinecraftQueryException.php';
+        require_once dirname(__FILE__) . '/minecraft_query/MinecraftQuery.php';
+        require_once dirname(__FILE__) . '/minecraft_query/MinecraftQueryException.php';
 
         $Query = new xPaw\MinecraftQuery();
 
@@ -83,8 +83,8 @@ class ApiClient {
      * @return array|mixed|null
      */
     public function pingCall() {
-        require dirname(__FILE__) . '/minecraft_query/MinecraftPing.php';
-        require dirname(__FILE__) . '/minecraft_query/MinecraftPingException.php';
+        require_once dirname(__FILE__) . '/minecraft_query/MinecraftPing.php';
+        require_once dirname(__FILE__) . '/minecraft_query/MinecraftPingException.php';
 
         $InfoPing = false;
         $QueryPing = null;
