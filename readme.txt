@@ -3,7 +3,7 @@ Contributors: GoneTone
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=42GN624D7ZLUN
 Tags: MCServerStatus, Status, Minecraft, Minecraft PE, Minecraft PC, Minecraft: Java Edition, Minecraft: Bedrock Edition, MCPE, MCBE, Minecraft Server Status, Minecraft PC & PE Server Status, Minecraft Server, MinecraftQuery, MinecraftPing, Query, Ping
 Requires at least: 3.5
-Tested up to: 4.9.6
+Tested up to: 4.9.7
 Stable tag: trunk
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -75,6 +75,9 @@ If you still can't, please contact your website hosting provider.
 Please close plugins with the same function, this plugin use `xPaw/PHP-Minecraft-Query`.
 
 == Changelog ==
+= 1.3.3 =
+* Fix fatal error when displaying 2 widgets, By daniel-widrick.
+
 = 1.3.2 =
 * Update Text Domain.
 * Not updated from version 1.3.0, need to reset Widget.

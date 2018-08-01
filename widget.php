@@ -3,7 +3,7 @@
  * Plugin Name: Server Status For Minecraft PC & PE (MCServerStatus)
  * Plugin URI: https://github.com/MCServerStatus/MCServerStatus-WordPressWidget
  * Description: Server Status For Minecraft PC & PE is a WordPress Widget, show Minecraft Java and Bedrock editions server data.
- * Version: 1.3.2
+ * Version: 1.3.3
  * Author: 張文相 Zhang Wenxiang
  * Author URI: https://www.facebook.com/GoneToneDY/
  * Author email: p29022716@gmail.com
