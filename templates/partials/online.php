@@ -6,7 +6,9 @@ echo $args['before_title'] . $instance['title'] . $args['after_title']; ?>
 <p>
 	<?php if (isset($instance['show_server_motd']) && $instance['show_server_motd'] == 'on') : ?>
 		<?php
+
         $cleanHostName = str_replace(array("§k", "§l", "§m", "§n", "§o", "§r", "§1", "§2", "§3", "§4", "§5", "§6", "§7", "§8", "§9", "§a", "§b", "§c", "§d", "§e", "§f"), "", $server['server']['server_motd']);
+	$cleanHostName = widrick_format_hostName($server['server']['server_motd']);
 		?>
         <?php echo esc_html__('Server MOTD: ', 'server-status-for-minecraft-pc-pe'); ?><strong><span style="color:green;font-weight:bold"><refresh class="motd"><?php echo $cleanHostName; ?></refresh></span></strong>
     <?php endif; ?>
