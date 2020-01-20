@@ -132,7 +132,8 @@ class MinecraftQuery
 			}
 			else if( $Last != false )
 			{
-				$Info[ $Last ] = mb_convert_encoding( $Value, 'UTF-8' );
+				//$Info[ $Last ] = mb_convert_encoding( $Value, 'UTF-8' );
+				$Info[$Last] = $Value;
 			}
 		}
 

@@ -14,6 +14,8 @@
  */
 require dirname(__FILE__) . '/libs/Widgetize.php';
 require dirname(__FILE__) . '/libs/ApiClient.php';
+require dirname(__FILE__) . '/shortcode.php';
+require dirname(__FILE__) . '/widrick_motd_correction.php';
 
 class MCServerStatus_Widget extends Widgetize {
     /**
@@ -64,7 +66,6 @@ class MCServerStatus_Widget extends Widgetize {
         if (in_array($instance['host'], array('127.0.0.1', 'localhost'))) {
             $instance['host'] = $_SERVER['SERVER_ADDR'];
         }
-
         $client = new GoneTone\ApiClient($instance['host'], $instance['server_port'], $instance['query_port']);
         $queryServer = $client->queryCall();
         $pingServer = $client->pingCall();
